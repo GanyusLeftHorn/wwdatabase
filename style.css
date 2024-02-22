@@ -17,6 +17,7 @@ body {
     width: 100%;
     text-align: center;
     background-color: #393d50;
+    border-bottom: 0.3rem solid #000000;
 }
 .navitem {
     font-size: 2.6rem;
