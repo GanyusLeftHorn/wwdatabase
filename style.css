@@ -1,0 +1,206 @@
+html {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #21232d;
+    color: #d0d0d0;
+    padding:0;
+    margin:0;
+}
+
+.navigation {
+    /*height: 3rem;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #393d50;
+}
+.navitem {
+    font-size: 2.6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    border: none;
+    color: #d0d0d0;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.navitem:hover {
+    background-color: #2d3144;
+}
+
+.content-container {
+    max-width: 100rem;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemgrid {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: auto auto auto auto auto;
+}
+.itementry {
+    background-color: #393d50;
+}
+.itementry a {
+    text-decoration: none;
+}
+.navicon-container {
+    text-align: center;
+}
+.navicon {
+    width: 8rem;
+    height: 8rem;
+}
+.navtext {
+    font-size: 2rem;
+    text-align: center;
+    color: #d0d0d0;
+}
+
+.stats {
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+.stats th {
+    background-color: #000000;
+}
+.stats th, .stats td {
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;  
+}
+.stats tr:nth-child(odd) {
+    background-color: #191b24;
+}
+.stats tr:nth-child(even) {
+    background-color: #0f0f15;
+}
+
+.attribs {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.attribs th {
+    background-color: #000000;
+}
+.attribs th, .attribs td {
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.attribs td {
+    font-size: 0.8rem;
+}
+.attribs tr:nth-child(odd) {
+    background-color: #191b24;
+}
+.attribs tr:nth-child(even) {
+    background-color: #0f0f15;
+}
+
+.Title {
+    font-weight: bold;
+    color: #98a6b4;
+}
+.Highlight {
+    font-style: italic;
+}
+.Ice {
+    color: #41AEFB;
+}
+.Light {
+    color: #F8E56C;
+}
+.Fire {
+    color: #F0744E;
+}
+.Dark {
+    color: #E649A6;
+}
+.Thunder {
+    color: #B46BFF;
+}
+.Wind {
+    color: #55FFB5;
+}
+
+.param {
+    color:#F8E56C;
+}
+
+
+.name {
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 0.3rem;
+}
+.nickname {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.section {
+    display: block;
+    font-size: 2.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill {
+    display: block;
+    background-color: #343746;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.skillname {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.description {
+}
+.bg_description {
+    color: #9f9f9f;
+}
+.itemtype {
+    font-size: 1.6rem;
+    display: block;
+}
+.basetable {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.iconcontainer {
+}
+.icon {
+    width: 35rem;
+    height: 35rem;
+}
+.baseinfo {
+    /*flex: 1;*/
+    margin-left: 6rem;
+}
+
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
