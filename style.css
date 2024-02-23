@@ -21,8 +21,8 @@ body {
 }
 .navitem {
     font-size: 2.6rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     display: inline-block;
     border: none;
     color: #d0d0d0;
@@ -190,7 +190,19 @@ body {
 }
 .iconcontainer {
 }
-.icon {
+.icon-role {
+    width: auto;
+    height: 45rem;
+}
+.icon-weapon {
+    width: 35rem;
+    height: 35rem;
+}
+.icon-item {
+    width: 35rem;
+    height: 35rem;
+}
+.icon-monster {
     width: 35rem;
     height: 35rem;
 }
