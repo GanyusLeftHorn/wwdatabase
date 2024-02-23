@@ -47,7 +47,7 @@ body {
     display: grid;
     column-gap: 1rem;
     row-gap: 1rem;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .itementry {
     background-color: #393d50;
