@@ -237,6 +237,11 @@ body {
     padding-left: 0.5rem;
     padding-bottom: 0.5rem;
 }
+.damage-note {
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    font-size: 0.8rem;
+}
 
 .right {
     text-align: right;
