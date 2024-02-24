@@ -7,6 +7,7 @@
         <title>Baizhi (1103)</title>
 
         <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
     </head>
 
     <body>
@@ -383,6 +384,249 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000401" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">32.94%</td>
+                                        <td class="center">35.64%</td>
+                                        <td class="center">38.34%</td>
+                                        <td class="center">42.12%</td>
+                                        <td class="center">44.82%</td>
+                                        <td class="center">47.93%</td>
+                                        <td class="center">52.25%</td>
+                                        <td class="center">56.57%</td>
+                                        <td class="center">60.89%</td>
+                                        <td class="center">65.48%</td>
+                                        <td class="center">1.02</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">3.85</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">10.3</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.52%</td>
+                                        <td class="center">42.76%</td>
+                                        <td class="center">46.01%</td>
+                                        <td class="center">50.54%</td>
+                                        <td class="center">53.78%</td>
+                                        <td class="center">57.51%</td>
+                                        <td class="center">62.69%</td>
+                                        <td class="center">67.88%</td>
+                                        <td class="center">73.06%</td>
+                                        <td class="center">78.57%</td>
+                                        <td class="center">1.23</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.63</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">12.35</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">6.59%</td>
+                                        <td class="center">7.13%</td>
+                                        <td class="center">7.67%</td>
+                                        <td class="center">8.43%</td>
+                                        <td class="center">8.97%</td>
+                                        <td class="center">9.59%</td>
+                                        <td class="center">10.45%</td>
+                                        <td class="center">11.32%</td>
+                                        <td class="center">12.18%</td>
+                                        <td class="center">13.1%</td>
+                                        <td class="center">0.2</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.77</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">2.06</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.52%</td>
+                                        <td class="center">42.76%</td>
+                                        <td class="center">46.01%</td>
+                                        <td class="center">50.54%</td>
+                                        <td class="center">53.78%</td>
+                                        <td class="center">57.51%</td>
+                                        <td class="center">62.69%</td>
+                                        <td class="center">67.88%</td>
+                                        <td class="center">73.06%</td>
+                                        <td class="center">78.57%</td>
+                                        <td class="center">1.23</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.63</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">12.35</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">24.58%</td>
+                                        <td class="center">26.6%</td>
+                                        <td class="center">28.61%</td>
+                                        <td class="center">31.43%</td>
+                                        <td class="center">33.45%</td>
+                                        <td class="center">35.77%</td>
+                                        <td class="center">38.99%</td>
+                                        <td class="center">42.21%</td>
+                                        <td class="center">45.44%</td>
+                                        <td class="center">48.86%</td>
+                                        <td class="center">0.6</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.4</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">6.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">89.86%</td>
+                                        <td class="center">97.23%</td>
+                                        <td class="center">104.6%</td>
+                                        <td class="center">114.91%</td>
+                                        <td class="center">122.28%</td>
+                                        <td class="center">130.75%</td>
+                                        <td class="center">142.54%</td>
+                                        <td class="center">154.33%</td>
+                                        <td class="center">166.12%</td>
+                                        <td class="center">178.65%</td>
+                                        <td class="center">2.8</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">6.03</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">150.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">7</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">76.16%</td>
+                                        <td class="center">82.41%</td>
+                                        <td class="center">88.66%</td>
+                                        <td class="center">97.4%</td>
+                                        <td class="center">103.64%</td>
+                                        <td class="center">110.83%</td>
+                                        <td class="center">120.82%</td>
+                                        <td class="center">130.81%</td>
+                                        <td class="center">140.8%</td>
+                                        <td class="center">151.42%</td>
+                                        <td class="center">2.38</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">8.92</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">23.8</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">8</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">55.49%</td>
+                                        <td class="center">60.04%</td>
+                                        <td class="center">64.59%</td>
+                                        <td class="center">70.96%</td>
+                                        <td class="center">75.51%</td>
+                                        <td class="center">80.75%</td>
+                                        <td class="center">88.03%</td>
+                                        <td class="center">95.31%</td>
+                                        <td class="center">102.59%</td>
+                                        <td class="center">110.32%</td>
+                                        <td class="center">1.73</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">6.5</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">17.34</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -486,6 +730,93 @@
                                 </tr>
                             
                         </table>
+                    
+
+                    
+                        <button id="toggle-1000402" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Physical">Physical</span></td>
+                                        <td class="center">Healing</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">575 +2.9%</td>
+                                        <td class="center">623 +3.14%</td>
+                                        <td class="center">670 +3.38%</td>
+                                        <td class="center">736 +3.71%</td>
+                                        <td class="center">783 +3.95%</td>
+                                        <td class="center">837 +4.22%</td>
+                                        <td class="center">913 +4.6%</td>
+                                        <td class="center">988 +4.98%</td>
+                                        <td class="center">1064 +5.36%</td>
+                                        <td class="center">1144 +5.77%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">8.02%</td>
+                                        <td class="center">8.68%</td>
+                                        <td class="center">9.34%</td>
+                                        <td class="center">10.26%</td>
+                                        <td class="center">10.91%</td>
+                                        <td class="center">11.67%</td>
+                                        <td class="center">12.72%</td>
+                                        <td class="center">13.77%</td>
+                                        <td class="center">14.82%</td>
+                                        <td class="center">15.94%</td>
+                                        <td class="center">7.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">200.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
                     
                 </span>
             
@@ -637,6 +968,119 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000403" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">2.05%</td>
+                                        <td class="center">2.22%</td>
+                                        <td class="center">2.39%</td>
+                                        <td class="center">2.62%</td>
+                                        <td class="center">2.79%</td>
+                                        <td class="center">2.98%</td>
+                                        <td class="center">3.25%</td>
+                                        <td class="center">3.52%</td>
+                                        <td class="center">3.79%</td>
+                                        <td class="center">4.07%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">5.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">25.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Physical">Physical</span></td>
+                                        <td class="center">Healing</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">310 +1.26%</td>
+                                        <td class="center">336 +1.37%</td>
+                                        <td class="center">361 +1.47%</td>
+                                        <td class="center">397 +1.62%</td>
+                                        <td class="center">422 +1.72%</td>
+                                        <td class="center">452 +1.84%</td>
+                                        <td class="center">492 +2.0%</td>
+                                        <td class="center">533 +2.17%</td>
+                                        <td class="center">574 +2.33%</td>
+                                        <td class="center">617 +2.51%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Physical">Physical</span></td>
+                                        <td class="center">Healing</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">349 +1.42%</td>
+                                        <td class="center">378 +1.54%</td>
+                                        <td class="center">406 +1.65%</td>
+                                        <td class="center">446 +1.82%</td>
+                                        <td class="center">475 +1.93%</td>
+                                        <td class="center">508 +2.07%</td>
+                                        <td class="center">554 +2.25%</td>
+                                        <td class="center">599 +2.44%</td>
+                                        <td class="center">645 +2.63%</td>
+                                        <td class="center">694 +2.82%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -645,12 +1089,16 @@
                     When casting the Resonance Skill <span class="Highlight">Emergency Plan</span>, You'tan will leave a <span class="Highlight">Euphonia</span>, which lasts for 15 seconds.<br /><br /><span> </span><br /><br /><span><span class="Title">Euphonia</span></span><br /><br />The attack of the character who picks up the Euphonia will increase by 15%, lasting for 20 seconds.
 
                     
+
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Inherent Skill: Stimulus Feedback</span>
 
                     <span class="Highlight">Heavy Attack</span> heals the character with the least HP in the nearby team with each hit, the amount of HP restored is 0.25% of Baizhi's maximum HP.
+
+                    
 
                     
                 </span>
@@ -734,12 +1182,101 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000406" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Ice">Glacio</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">40.0%</td>
+                                        <td class="center">43.28%</td>
+                                        <td class="center">46.56%</td>
+                                        <td class="center">51.16%</td>
+                                        <td class="center">54.44%</td>
+                                        <td class="center">58.21%</td>
+                                        <td class="center">63.46%</td>
+                                        <td class="center">68.7%</td>
+                                        <td class="center">73.95%</td>
+                                        <td class="center">79.53%</td>
+                                        <td class="center">8.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">18.24</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Physical">Physical</span></td>
+                                        <td class="center">Healing</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">75 +0.38%</td>
+                                        <td class="center">82 +0.41%</td>
+                                        <td class="center">88 +0.44%</td>
+                                        <td class="center">96 +0.49%</td>
+                                        <td class="center">103 +0.52%</td>
+                                        <td class="center">110 +0.56%</td>
+                                        <td class="center">119 +0.6%</td>
+                                        <td class="center">129 +0.65%</td>
+                                        <td class="center">139 +0.7%</td>
+                                        <td class="center">150 +0.76%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Outro Skill: Rejuvinating Flow</span>
 
                     Baizhi provides medical support, allowing Characters on the field to recover 1.54% of Baizhi's maximum health every 3 seconds, lasting 30 seconds. When receiving this healing effect, the Character's damage increases by 15%, lasting 6 seconds.
+
+                    
 
                     
                 </span>
@@ -800,12 +1337,75 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000407" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Physical">Physical</span></td>
+                                        <td class="center">Healing</td>
+                                        <td class="center">HP</td>
+                                        <td class="center">32 +0.16%</td>
+                                        <td class="center">34 +0.18%</td>
+                                        <td class="center">37 +0.19%</td>
+                                        <td class="center">40 +0.21%</td>
+                                        <td class="center">43 +0.22%</td>
+                                        <td class="center">46 +0.23%</td>
+                                        <td class="center">50 +0.25%</td>
+                                        <td class="center">54 +0.28%</td>
+                                        <td class="center">58 +0.3%</td>
+                                        <td class="center">63 +0.32%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Inherent Skill: Skillful Cooking</span>
 
                     The current Character has a chance to produce a specialty dish when cooking
+
+                    
 
                     
                 </span>

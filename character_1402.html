@@ -7,6 +7,7 @@
         <title>Yangyang (1402)</title>
 
         <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
     </head>
 
     <body>
@@ -406,6 +407,275 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000101" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">22.5%</td>
+                                        <td class="center">24.34%</td>
+                                        <td class="center">26.18%</td>
+                                        <td class="center">28.77%</td>
+                                        <td class="center">30.61%</td>
+                                        <td class="center">32.73%</td>
+                                        <td class="center">35.69%</td>
+                                        <td class="center">38.64%</td>
+                                        <td class="center">41.59%</td>
+                                        <td class="center">44.73%</td>
+                                        <td class="center">0.75</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.4</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">30.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">30.0%</td>
+                                        <td class="center">32.46%</td>
+                                        <td class="center">34.92%</td>
+                                        <td class="center">38.36%</td>
+                                        <td class="center">40.82%</td>
+                                        <td class="center">43.65%</td>
+                                        <td class="center">47.58%</td>
+                                        <td class="center">51.52%</td>
+                                        <td class="center">55.46%</td>
+                                        <td class="center">59.64%</td>
+                                        <td class="center">1.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">3.2</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">40.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">23.55%</td>
+                                        <td class="center">25.48%</td>
+                                        <td class="center">27.41%</td>
+                                        <td class="center">30.11%</td>
+                                        <td class="center">32.04%</td>
+                                        <td class="center">34.26%</td>
+                                        <td class="center">37.35%</td>
+                                        <td class="center">40.44%</td>
+                                        <td class="center">43.53%</td>
+                                        <td class="center">46.81%</td>
+                                        <td class="center">0.78</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.51</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">31.4</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">19.9%</td>
+                                        <td class="center">21.53%</td>
+                                        <td class="center">23.16%</td>
+                                        <td class="center">25.45%</td>
+                                        <td class="center">27.08%</td>
+                                        <td class="center">28.96%</td>
+                                        <td class="center">31.57%</td>
+                                        <td class="center">34.18%</td>
+                                        <td class="center">36.79%</td>
+                                        <td class="center">39.57%</td>
+                                        <td class="center">0.66</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.12</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">26.53</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.81%</td>
+                                        <td class="center">43.07%</td>
+                                        <td class="center">46.33%</td>
+                                        <td class="center">50.9%</td>
+                                        <td class="center">54.17%</td>
+                                        <td class="center">57.92%</td>
+                                        <td class="center">63.15%</td>
+                                        <td class="center">68.37%</td>
+                                        <td class="center">73.59%</td>
+                                        <td class="center">79.14%</td>
+                                        <td class="center">1.32</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.24</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">53.08</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">10.0%</td>
+                                        <td class="center">10.82%</td>
+                                        <td class="center">11.64%</td>
+                                        <td class="center">12.78%</td>
+                                        <td class="center">13.6%</td>
+                                        <td class="center">14.55%</td>
+                                        <td class="center">15.86%</td>
+                                        <td class="center">17.17%</td>
+                                        <td class="center">18.48%</td>
+                                        <td class="center">19.88%</td>
+                                        <td class="center">0.33</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.06</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">13.33</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">7</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">53.62%</td>
+                                        <td class="center">58.02%</td>
+                                        <td class="center">62.41%</td>
+                                        <td class="center">68.57%</td>
+                                        <td class="center">72.97%</td>
+                                        <td class="center">78.02%</td>
+                                        <td class="center">85.06%</td>
+                                        <td class="center">92.1%</td>
+                                        <td class="center">99.13%</td>
+                                        <td class="center">106.61%</td>
+                                        <td class="center">1.78</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">5.72</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">71.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">8</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">90.0%</td>
+                                        <td class="center">97.38%</td>
+                                        <td class="center">104.75%</td>
+                                        <td class="center">115.09%</td>
+                                        <td class="center">122.47%</td>
+                                        <td class="center">130.95%</td>
+                                        <td class="center">142.76%</td>
+                                        <td class="center">154.57%</td>
+                                        <td class="center">166.38%</td>
+                                        <td class="center">178.92%</td>
+                                        <td class="center">3.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">6.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">120.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">9</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">43.8%</td>
+                                        <td class="center">47.39%</td>
+                                        <td class="center">50.98%</td>
+                                        <td class="center">56.01%</td>
+                                        <td class="center">59.6%</td>
+                                        <td class="center">63.73%</td>
+                                        <td class="center">69.47%</td>
+                                        <td class="center">75.22%</td>
+                                        <td class="center">80.97%</td>
+                                        <td class="center">87.07%</td>
+                                        <td class="center">1.36</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.98</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">75.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -509,6 +779,93 @@
                                 </tr>
                             
                         </table>
+                    
+
+                    
+                        <button id="toggle-1000102" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">17.37%</td>
+                                        <td class="center">18.79%</td>
+                                        <td class="center">20.21%</td>
+                                        <td class="center">22.21%</td>
+                                        <td class="center">23.63%</td>
+                                        <td class="center">25.27%</td>
+                                        <td class="center">27.55%</td>
+                                        <td class="center">29.83%</td>
+                                        <td class="center">32.11%</td>
+                                        <td class="center">34.53%</td>
+                                        <td class="center">1.18</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">20.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">104.22%</td>
+                                        <td class="center">112.76%</td>
+                                        <td class="center">121.31%</td>
+                                        <td class="center">133.27%</td>
+                                        <td class="center">141.82%</td>
+                                        <td class="center">151.65%</td>
+                                        <td class="center">165.32%</td>
+                                        <td class="center">178.99%</td>
+                                        <td class="center">192.67%</td>
+                                        <td class="center">207.19%</td>
+                                        <td class="center">7.1</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">120.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
                     
                 </span>
             
@@ -660,6 +1017,93 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000103" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">25.58%</td>
+                                        <td class="center">27.68%</td>
+                                        <td class="center">29.78%</td>
+                                        <td class="center">32.72%</td>
+                                        <td class="center">34.81%</td>
+                                        <td class="center">37.23%</td>
+                                        <td class="center">40.58%</td>
+                                        <td class="center">43.94%</td>
+                                        <td class="center">47.3%</td>
+                                        <td class="center">50.86%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">20.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">204.69%</td>
+                                        <td class="center">221.47%</td>
+                                        <td class="center">238.26%</td>
+                                        <td class="center">261.76%</td>
+                                        <td class="center">278.54%</td>
+                                        <td class="center">297.84%</td>
+                                        <td class="center">324.7%</td>
+                                        <td class="center">351.55%</td>
+                                        <td class="center">378.41%</td>
+                                        <td class="center">406.94%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">160.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -740,6 +1184,67 @@
                                 </tr>
                             
                         </table>
+                    
+
+                    
+                        <button id="toggle-1000106" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">40.0%</td>
+                                        <td class="center">43.28%</td>
+                                        <td class="center">46.56%</td>
+                                        <td class="center">51.15%</td>
+                                        <td class="center">54.43%</td>
+                                        <td class="center">58.2%</td>
+                                        <td class="center">63.45%</td>
+                                        <td class="center">68.7%</td>
+                                        <td class="center">73.94%</td>
+                                        <td class="center">79.52%</td>
+                                        <td class="center">5.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">45.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
                     
                 </span>
             
@@ -845,12 +1350,205 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000107" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">19.12%</td>
+                                        <td class="center">20.69%</td>
+                                        <td class="center">22.26%</td>
+                                        <td class="center">24.45%</td>
+                                        <td class="center">26.02%</td>
+                                        <td class="center">27.82%</td>
+                                        <td class="center">30.33%</td>
+                                        <td class="center">32.84%</td>
+                                        <td class="center">35.35%</td>
+                                        <td class="center">38.02%</td>
+                                        <td class="center">0.63</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.04</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">25.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">19.12%</td>
+                                        <td class="center">20.69%</td>
+                                        <td class="center">22.26%</td>
+                                        <td class="center">24.45%</td>
+                                        <td class="center">26.02%</td>
+                                        <td class="center">27.82%</td>
+                                        <td class="center">30.33%</td>
+                                        <td class="center">32.84%</td>
+                                        <td class="center">35.35%</td>
+                                        <td class="center">38.02%</td>
+                                        <td class="center">0.63</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.04</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">25.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">10.93%</td>
+                                        <td class="center">11.83%</td>
+                                        <td class="center">12.72%</td>
+                                        <td class="center">13.98%</td>
+                                        <td class="center">14.88%</td>
+                                        <td class="center">15.91%</td>
+                                        <td class="center">17.34%</td>
+                                        <td class="center">18.78%</td>
+                                        <td class="center">20.21%</td>
+                                        <td class="center">21.73%</td>
+                                        <td class="center">0.36</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">14.58</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">10.93%</td>
+                                        <td class="center">11.83%</td>
+                                        <td class="center">12.72%</td>
+                                        <td class="center">13.98%</td>
+                                        <td class="center">14.88%</td>
+                                        <td class="center">15.91%</td>
+                                        <td class="center">17.34%</td>
+                                        <td class="center">18.78%</td>
+                                        <td class="center">20.21%</td>
+                                        <td class="center">21.73%</td>
+                                        <td class="center">0.36</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">14.58</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">63.78%</td>
+                                        <td class="center">69.01%</td>
+                                        <td class="center">74.24%</td>
+                                        <td class="center">81.57%</td>
+                                        <td class="center">86.8%</td>
+                                        <td class="center">92.81%</td>
+                                        <td class="center">101.18%</td>
+                                        <td class="center">109.55%</td>
+                                        <td class="center">117.92%</td>
+                                        <td class="center">126.81%</td>
+                                        <td class="center">2.12</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">85.05</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Wind">Aero</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">63.78%</td>
+                                        <td class="center">69.01%</td>
+                                        <td class="center">74.24%</td>
+                                        <td class="center">81.57%</td>
+                                        <td class="center">86.8%</td>
+                                        <td class="center">92.81%</td>
+                                        <td class="center">101.18%</td>
+                                        <td class="center">109.55%</td>
+                                        <td class="center">117.92%</td>
+                                        <td class="center">126.81%</td>
+                                        <td class="center">2.12</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">85.05</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Inherent Skill: Understanding</span>
 
                     After casting the Mid-air Attack <span class="Highlight">Feather Release</span>, recover 30 points of Stamina.
+
+                    
 
                     
                 </span>
@@ -861,6 +1559,8 @@
                     After casting the Intro Skill <span class="Highlight">Cerulean Song</span>, the Aero damage bonus of Yangyang is increased by 8%, and the effect lasts for 8 seconds.
 
                     
+
+                    
                 </span>
             
                 <span class="skill">
@@ -869,12 +1569,16 @@
                     When cooking a Dish for exploring the Echo, there is a 20% chance to get double the same Dish.
 
                     
+
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Outro Skill: Derivative Breath</span>
 
                     Recovers 4 points of Resonance Liberation energy per second, lasting for 5 seconds.
+
+                    
 
                     
                 </span>

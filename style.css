@@ -211,6 +211,33 @@ body {
     margin-left: 6rem;
 }
 
+.damage-toggle {
+    margin-top: 1rem;
+
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #292c3c;
+    color: #d0d0d0;
+}
+.damage-toggle:hover {
+    background-color: #363a4c;
+}
+
+.damage-section {
+    display: none;
+    overflow: hidden;
+    background-color: #292c3c;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .right {
     text-align: right;
 }

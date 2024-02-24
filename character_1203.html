@@ -7,6 +7,7 @@
         <title>Encore (1203)</title>
 
         <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
     </head>
 
     <body>
@@ -406,6 +407,301 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000701" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">28.0%</td>
+                                        <td class="center">30.29%</td>
+                                        <td class="center">32.59%</td>
+                                        <td class="center">35.8%</td>
+                                        <td class="center">38.1%</td>
+                                        <td class="center">40.74%</td>
+                                        <td class="center">44.41%</td>
+                                        <td class="center">48.09%</td>
+                                        <td class="center">51.76%</td>
+                                        <td class="center">55.66%</td>
+                                        <td class="center">0.7</td>
+                                        <!--<td class="center">0.03</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.4</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">22.4</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.3%</td>
+                                        <td class="center">36.03%</td>
+                                        <td class="center">38.76%</td>
+                                        <td class="center">42.58%</td>
+                                        <td class="center">45.31%</td>
+                                        <td class="center">48.45%</td>
+                                        <td class="center">52.82%</td>
+                                        <td class="center">57.19%</td>
+                                        <td class="center">61.56%</td>
+                                        <td class="center">66.2%</td>
+                                        <td class="center">0.83</td>
+                                        <!--<td class="center">0.05</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.66</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">26.64</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.35%</td>
+                                        <td class="center">36.08%</td>
+                                        <td class="center">38.81%</td>
+                                        <td class="center">42.64%</td>
+                                        <td class="center">45.38%</td>
+                                        <td class="center">48.52%</td>
+                                        <td class="center">52.9%</td>
+                                        <td class="center">57.27%</td>
+                                        <td class="center">61.65%</td>
+                                        <td class="center">66.3%</td>
+                                        <td class="center">0.83</td>
+                                        <!--<td class="center">0.03</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.66</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">26.68</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.35%</td>
+                                        <td class="center">36.08%</td>
+                                        <td class="center">38.81%</td>
+                                        <td class="center">42.64%</td>
+                                        <td class="center">45.38%</td>
+                                        <td class="center">48.52%</td>
+                                        <td class="center">52.9%</td>
+                                        <td class="center">57.27%</td>
+                                        <td class="center">61.65%</td>
+                                        <td class="center">66.3%</td>
+                                        <td class="center">0.83</td>
+                                        <!--<td class="center">0.03</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.66</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">26.68</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">19.25%</td>
+                                        <td class="center">20.82%</td>
+                                        <td class="center">22.4%</td>
+                                        <td class="center">24.61%</td>
+                                        <td class="center">26.19%</td>
+                                        <td class="center">28.01%</td>
+                                        <td class="center">30.53%</td>
+                                        <td class="center">33.06%</td>
+                                        <td class="center">35.58%</td>
+                                        <td class="center">38.27%</td>
+                                        <td class="center">0.48</td>
+                                        <!--<td class="center">0.01</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.96</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">15.4</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">120.0%</td>
+                                        <td class="center">129.84%</td>
+                                        <td class="center">139.67%</td>
+                                        <td class="center">153.45%</td>
+                                        <td class="center">163.29%</td>
+                                        <td class="center">174.61%</td>
+                                        <td class="center">190.35%</td>
+                                        <td class="center">206.1%</td>
+                                        <td class="center">221.84%</td>
+                                        <td class="center">238.57%</td>
+                                        <td class="center">3.0</td>
+                                        <!--<td class="center">0.25</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">6.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">96.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">7</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">94.1%</td>
+                                        <td class="center">101.81%</td>
+                                        <td class="center">109.53%</td>
+                                        <td class="center">120.33%</td>
+                                        <td class="center">128.05%</td>
+                                        <td class="center">136.92%</td>
+                                        <td class="center">149.27%</td>
+                                        <td class="center">161.61%</td>
+                                        <td class="center">173.96%</td>
+                                        <td class="center">187.08%</td>
+                                        <td class="center">2.35</td>
+                                        <!--<td class="center">0.05</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">4.7</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">75.28</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">8</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">120.0%</td>
+                                        <td class="center">129.84%</td>
+                                        <td class="center">139.67%</td>
+                                        <td class="center">153.45%</td>
+                                        <td class="center">163.29%</td>
+                                        <td class="center">174.61%</td>
+                                        <td class="center">190.35%</td>
+                                        <td class="center">206.1%</td>
+                                        <td class="center">221.84%</td>
+                                        <td class="center">238.57%</td>
+                                        <td class="center">3.0</td>
+                                        <!--<td class="center">0.11</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">6.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">96.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">9</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">63.34%</td>
+                                        <td class="center">68.54%</td>
+                                        <td class="center">73.73%</td>
+                                        <td class="center">81.01%</td>
+                                        <td class="center">86.2%</td>
+                                        <td class="center">92.18%</td>
+                                        <td class="center">100.49%</td>
+                                        <td class="center">108.8%</td>
+                                        <td class="center">117.11%</td>
+                                        <td class="center">125.94%</td>
+                                        <td class="center">1.58</td>
+                                        <!--<td class="center">0.03</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.66</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">75.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">10</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">63.34%</td>
+                                        <td class="center">68.54%</td>
+                                        <td class="center">73.73%</td>
+                                        <td class="center">81.01%</td>
+                                        <td class="center">86.2%</td>
+                                        <td class="center">92.18%</td>
+                                        <td class="center">100.49%</td>
+                                        <td class="center">108.8%</td>
+                                        <td class="center">117.11%</td>
+                                        <td class="center">125.94%</td>
+                                        <td class="center">1.58</td>
+                                        <!--<td class="center">0.03</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.66</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">75.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -555,6 +851,93 @@
                                 </tr>
                             
                         </table>
+                    
+
+                    
+                        <button id="toggle-1000702" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">38.53%</td>
+                                        <td class="center">41.69%</td>
+                                        <td class="center">44.85%</td>
+                                        <td class="center">49.28%</td>
+                                        <td class="center">52.44%</td>
+                                        <td class="center">56.07%</td>
+                                        <td class="center">61.13%</td>
+                                        <td class="center">66.18%</td>
+                                        <td class="center">71.24%</td>
+                                        <td class="center">76.61%</td>
+                                        <td class="center">1.91</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">25.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">170.6%</td>
+                                        <td class="center">184.58%</td>
+                                        <td class="center">198.57%</td>
+                                        <td class="center">218.16%</td>
+                                        <td class="center">232.15%</td>
+                                        <td class="center">248.24%</td>
+                                        <td class="center">270.62%</td>
+                                        <td class="center">293.0%</td>
+                                        <td class="center">315.38%</td>
+                                        <td class="center">339.16%</td>
+                                        <td class="center">0.75</td>
+                                        <!--<td class="center">0.3</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.51</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">60.48</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
                     
                 </span>
             
@@ -890,6 +1273,561 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000703" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">54.16%</td>
+                                        <td class="center">58.6%</td>
+                                        <td class="center">63.04%</td>
+                                        <td class="center">69.26%</td>
+                                        <td class="center">73.7%</td>
+                                        <td class="center">78.81%</td>
+                                        <td class="center">85.91%</td>
+                                        <td class="center">93.02%</td>
+                                        <td class="center">100.13%</td>
+                                        <td class="center">107.68%</td>
+                                        <td class="center">0.66</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.33</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">21.32</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">54.16%</td>
+                                        <td class="center">58.6%</td>
+                                        <td class="center">63.04%</td>
+                                        <td class="center">69.26%</td>
+                                        <td class="center">73.7%</td>
+                                        <td class="center">78.81%</td>
+                                        <td class="center">85.91%</td>
+                                        <td class="center">93.02%</td>
+                                        <td class="center">100.13%</td>
+                                        <td class="center">107.68%</td>
+                                        <td class="center">0.66</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">1.33</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">21.32</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.87%</td>
+                                        <td class="center">36.65%</td>
+                                        <td class="center">39.42%</td>
+                                        <td class="center">43.31%</td>
+                                        <td class="center">46.09%</td>
+                                        <td class="center">49.28%</td>
+                                        <td class="center">53.73%</td>
+                                        <td class="center">58.17%</td>
+                                        <td class="center">62.62%</td>
+                                        <td class="center">67.34%</td>
+                                        <td class="center">0.41</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.83</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">13.33</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.87%</td>
+                                        <td class="center">36.65%</td>
+                                        <td class="center">39.42%</td>
+                                        <td class="center">43.31%</td>
+                                        <td class="center">46.09%</td>
+                                        <td class="center">49.28%</td>
+                                        <td class="center">53.73%</td>
+                                        <td class="center">58.17%</td>
+                                        <td class="center">62.62%</td>
+                                        <td class="center">67.34%</td>
+                                        <td class="center">0.41</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.83</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">13.33</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">33.87%</td>
+                                        <td class="center">36.65%</td>
+                                        <td class="center">39.42%</td>
+                                        <td class="center">43.31%</td>
+                                        <td class="center">46.09%</td>
+                                        <td class="center">49.28%</td>
+                                        <td class="center">53.73%</td>
+                                        <td class="center">58.17%</td>
+                                        <td class="center">62.62%</td>
+                                        <td class="center">67.34%</td>
+                                        <td class="center">0.41</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.83</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">13.33</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.48</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">15.6</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">7</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.48</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">15.6</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">8</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.48</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">15.6</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">9</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.48</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">15.6</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">10</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">116.52%</td>
+                                        <td class="center">126.07%</td>
+                                        <td class="center">135.63%</td>
+                                        <td class="center">149.0%</td>
+                                        <td class="center">158.56%</td>
+                                        <td class="center">169.55%</td>
+                                        <td class="center">184.83%</td>
+                                        <td class="center">200.12%</td>
+                                        <td class="center">215.41%</td>
+                                        <td class="center">231.65%</td>
+                                        <td class="center">1.43</td>
+                                        <!--<td class="center">0.09</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.86</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">45.86</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">11</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">116.52%</td>
+                                        <td class="center">126.07%</td>
+                                        <td class="center">135.63%</td>
+                                        <td class="center">149.0%</td>
+                                        <td class="center">158.56%</td>
+                                        <td class="center">169.55%</td>
+                                        <td class="center">184.83%</td>
+                                        <td class="center">200.12%</td>
+                                        <td class="center">215.41%</td>
+                                        <td class="center">231.65%</td>
+                                        <td class="center">1.43</td>
+                                        <!--<td class="center">0.09</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.86</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">45.86</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">12</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">116.52%</td>
+                                        <td class="center">126.07%</td>
+                                        <td class="center">135.63%</td>
+                                        <td class="center">149.0%</td>
+                                        <td class="center">158.56%</td>
+                                        <td class="center">169.55%</td>
+                                        <td class="center">184.83%</td>
+                                        <td class="center">200.12%</td>
+                                        <td class="center">215.41%</td>
+                                        <td class="center">231.65%</td>
+                                        <td class="center">1.43</td>
+                                        <!--<td class="center">0.09</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.86</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">45.86</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">13</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">130.68%</td>
+                                        <td class="center">141.39%</td>
+                                        <td class="center">152.11%</td>
+                                        <td class="center">167.11%</td>
+                                        <td class="center">177.83%</td>
+                                        <td class="center">190.15%</td>
+                                        <td class="center">207.29%</td>
+                                        <td class="center">224.44%</td>
+                                        <td class="center">241.58%</td>
+                                        <td class="center">259.8%</td>
+                                        <td class="center">1.6</td>
+                                        <!--<td class="center">0.09</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">3.21</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">51.44</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">14</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">31.85%</td>
+                                        <td class="center">34.46%</td>
+                                        <td class="center">37.07%</td>
+                                        <td class="center">40.72%</td>
+                                        <td class="center">43.34%</td>
+                                        <td class="center">46.34%</td>
+                                        <td class="center">50.52%</td>
+                                        <td class="center">54.7%</td>
+                                        <td class="center">58.88%</td>
+                                        <td class="center">63.32%</td>
+                                        <td class="center">1.64</td>
+                                        <!--<td class="center">0.07</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">50.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">15</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">31.85%</td>
+                                        <td class="center">34.46%</td>
+                                        <td class="center">37.07%</td>
+                                        <td class="center">40.72%</td>
+                                        <td class="center">43.34%</td>
+                                        <td class="center">46.34%</td>
+                                        <td class="center">50.52%</td>
+                                        <td class="center">54.7%</td>
+                                        <td class="center">58.88%</td>
+                                        <td class="center">63.32%</td>
+                                        <td class="center">1.64</td>
+                                        <!--<td class="center">0.07</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">50.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">16</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">31.85%</td>
+                                        <td class="center">34.46%</td>
+                                        <td class="center">37.07%</td>
+                                        <td class="center">40.72%</td>
+                                        <td class="center">43.34%</td>
+                                        <td class="center">46.34%</td>
+                                        <td class="center">50.52%</td>
+                                        <td class="center">54.7%</td>
+                                        <td class="center">58.88%</td>
+                                        <td class="center">63.32%</td>
+                                        <td class="center">1.64</td>
+                                        <!--<td class="center">0.07</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">2.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">50.0</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">17</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.86</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">37.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">18</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.86</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">37.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">19</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.86</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">37.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">20</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">39.63%</td>
+                                        <td class="center">42.88%</td>
+                                        <td class="center">46.13%</td>
+                                        <td class="center">50.68%</td>
+                                        <td class="center">53.92%</td>
+                                        <td class="center">57.66%</td>
+                                        <td class="center">62.86%</td>
+                                        <td class="center">68.06%</td>
+                                        <td class="center">73.26%</td>
+                                        <td class="center">78.79%</td>
+                                        <td class="center">0.86</td>
+                                        <!--<td class="center">0.04</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.97</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">37.5</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
@@ -971,12 +1909,75 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000706" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">100.0%</td>
+                                        <td class="center">108.2%</td>
+                                        <td class="center">116.4%</td>
+                                        <td class="center">127.88%</td>
+                                        <td class="center">136.08%</td>
+                                        <td class="center">145.51%</td>
+                                        <td class="center">158.63%</td>
+                                        <td class="center">171.75%</td>
+                                        <td class="center">184.87%</td>
+                                        <td class="center">198.81%</td>
+                                        <td class="center">10.0</td>
+                                        <!--<td class="center">0.4</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">100.88</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Outro Skill: Thermal Field</span>
 
                     Centered on the skill target, a ground flame with a radius of 3 meters is generated. The ground flame will continue to burn the target within the range, causing 176.76% of the Encore's attack power every 1.5 seconds, causing <span class="Fire">Fusion damage</span>, and lasting 6 seconds.
+
+                    
 
                     
                 </span>
@@ -1474,12 +2475,205 @@
                             
                         </table>
                     
+
+                    
+                        <button id="toggle-1000707" type="button" class="damage-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                        <div class="damage-section">
+                            <table class="attribs">
+                                <tr>
+                                    <th class="center">Entry#</th>
+                                    <th class="center">Element</th>
+                                    <th class="center">Type</th>
+                                    <th class="center">Base Attribute</th>
+                                    <th class="center">Lv 1</th>
+                                    <th class="center">Lv 2</th>
+                                    <th class="center">Lv 3</th>
+                                    <th class="center">Lv 4</th>
+                                    <th class="center">Lv 5</th>
+                                    <th class="center">Lv 6</th>
+                                    <th class="center">Lv 7</th>
+                                    <th class="center">Lv 8</th>
+                                    <th class="center">Lv 9</th>
+                                    <th class="center">Lv 10</th>
+                                    <th class="center">Res. Lib. Energy</th>
+                                    <!--<th class="center">Special Energy 1</th>
+                                    <th class="center">Special Energy 2</th>
+                                    <th class="center">Special Energy 3</th>
+                                    <th class="center">Special Energy 4</th>-->
+                                    <th class="center">Elemental Energy</th>
+                                    <th class="center">Hardness</th>
+                                    <th class="center">Toughness</th>
+                                    <th class="center">Formula</th>
+                                </tr>
+
+                                
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">168.0%</td>
+                                        <td class="center">181.77%</td>
+                                        <td class="center">195.55%</td>
+                                        <td class="center">214.83%</td>
+                                        <td class="center">228.61%</td>
+                                        <td class="center">244.45%</td>
+                                        <td class="center">266.49%</td>
+                                        <td class="center">288.53%</td>
+                                        <td class="center">310.58%</td>
+                                        <td class="center">334.0%</td>
+                                        <td class="center">10.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">268.8</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">235.2%</td>
+                                        <td class="center">254.48%</td>
+                                        <td class="center">273.77%</td>
+                                        <td class="center">300.77%</td>
+                                        <td class="center">320.06%</td>
+                                        <td class="center">342.23%</td>
+                                        <td class="center">373.09%</td>
+                                        <td class="center">403.95%</td>
+                                        <td class="center">434.81%</td>
+                                        <td class="center">467.6%</td>
+                                        <td class="center">10.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">268.8</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">249.08%</td>
+                                        <td class="center">269.51%</td>
+                                        <td class="center">289.93%</td>
+                                        <td class="center">318.53%</td>
+                                        <td class="center">338.95%</td>
+                                        <td class="center">362.44%</td>
+                                        <td class="center">395.12%</td>
+                                        <td class="center">427.8%</td>
+                                        <td class="center">460.48%</td>
+                                        <td class="center">495.21%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">199.27</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">4</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">23.35%</td>
+                                        <td class="center">25.26%</td>
+                                        <td class="center">27.18%</td>
+                                        <td class="center">29.86%</td>
+                                        <td class="center">31.77%</td>
+                                        <td class="center">33.97%</td>
+                                        <td class="center">37.04%</td>
+                                        <td class="center">40.1%</td>
+                                        <td class="center">43.17%</td>
+                                        <td class="center">46.42%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">18.68</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">5</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">348.72%</td>
+                                        <td class="center">377.31%</td>
+                                        <td class="center">405.91%</td>
+                                        <td class="center">445.94%</td>
+                                        <td class="center">474.54%</td>
+                                        <td class="center">507.42%</td>
+                                        <td class="center">553.17%</td>
+                                        <td class="center">598.93%</td>
+                                        <td class="center">644.68%</td>
+                                        <td class="center">693.29%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">199.27</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="center">6</td>
+                                        <td class="center"><span class="Fire">Fusion</span></td>
+                                        <td class="center">Damage</td>
+                                        <td class="center">ATK</td>
+                                        <td class="center">32.69%</td>
+                                        <td class="center">35.37%</td>
+                                        <td class="center">38.05%</td>
+                                        <td class="center">41.8%</td>
+                                        <td class="center">44.48%</td>
+                                        <td class="center">47.57%</td>
+                                        <td class="center">51.86%</td>
+                                        <td class="center">56.14%</td>
+                                        <td class="center">60.43%</td>
+                                        <td class="center">64.99%</td>
+                                        <td class="center">0.0</td>
+                                        <!--<td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>
+                                        <td class="center">0.0</td>-->
+                                        <td class="center">0.0</td>
+                                        <td class="center">100.0</td>
+                                        <td class="center">18.68</td>
+                                        <td class="center">Standard</td>
+                                    </tr>
+                                
+                            </table>
+                        </div>
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Inherent Skill: Angry Cosmos</span>
 
                     During the Resonance Liberation <span class="Highlight">Cosmos Rampage</span>, when Encore's health is above 70%, damage is increased by 12%.
+
+                    
 
                     
                 </span>
@@ -1490,12 +2684,16 @@
                     When using Resonance Skill <span class="Highlight">Thermal Wooly</span> or Resonance Liberation <span class="Highlight">Cosmos Rampage</span>, Encore's Fusion damage bonus is increased by 15%, the effect lasts for 10 seconds.
 
                     
+
+                    
                 </span>
             
                 <span class="skill">
                     <span class="skillname">Inherent Skill: Skillful Cooking</span>
 
                     The current Character has a chance to produce special dishes when cooking
+
+                    
 
                     
                 </span>
