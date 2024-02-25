@@ -186,6 +186,27 @@ body {
     color: #55FFB5;
 }
 
+.quality-1 {
+    /*box-shadow: inset 0 -5.5rem 1.1rem -5.0rem #efece1;*/
+    border-bottom: 0.3rem solid #efece1;
+}
+.quality-2 {
+    /*box-shadow: inset 0 -5.5rem 1.1rem -5.0rem #5cc35e;*/
+    border-bottom: 0.3rem solid #5cc35e;
+}
+.quality-3 {
+    /*box-shadow: inset 0 -5.5rem 1.1rem -5.0rem #59b4d3;*/
+    border-bottom: 0.3rem solid #59b4d3;
+}
+.quality-4 {
+    /*box-shadow: inset 0 -5.5rem 1.1rem -5.0rem #ca6dff;*/
+    border-bottom: 0.3rem solid #ca6dff;
+}
+.quality-5 {
+    /*box-shadow: inset 0 -5.5rem 1.1rem -5.0rem #ffe65a;*/
+    border-bottom: 0.3rem solid #ffe65a;
+}
+
 .param {
     color:#F8E56C;
 }
