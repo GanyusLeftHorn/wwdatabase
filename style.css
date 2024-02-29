@@ -121,6 +121,33 @@ body {
     background-color: #0f0f15;
 }
 
+
+.infotable {
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.infotable td {
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.infotable tr:nth-child(odd) {
+    background-color: #1c1c2d;
+}
+.infotable tr:nth-child(even) {
+    background-color: #29293c;
+}
+.infokey {
+    width: 10rem;
+}
+.infovalue {
+    width: 15rem;
+}
+
 .attribs {
     margin-top: 10px;
     border-collapse: collapse;
@@ -183,6 +210,65 @@ body {
     text-align: center;
     color: #d0d0d0;
 }
+
+
+
+
+
+.storygrid {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 49rem);
+}
+.storyentry {
+    background-color: #393d50;
+    border-radius: 1rem;
+    width: 49rem;
+    height: 25rem;
+}
+
+.goods-story-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.story-image {
+    width: 15rem;
+    height: auto;
+    display: block;
+}
+
+.offset-anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -5rem;
+}
+
+.role-navigation {
+    margin-top: 0.5rem;
+}
+.role-navigation a {
+    display: block;
+    height: 1.8rem;
+    background-color: #3f3f49;
+    border: 0.1rem solid #d0d0d0;
+    border-radius: 0.9rem;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+}
+.role-navigation-text {
+    margin-top: 0.25rem;
+    width: 100%;
+    text-align: center;
+    color: #d0d0d0;
+    font-size: 1.2rem;
+}
+
+
 
 .Title {
     font-weight: bold;
@@ -315,6 +401,12 @@ body {
 }
 .baseinfo {
     margin-left: 6rem;
+}
+.baseinfo-data {
+    margin-left: 6rem;
+    width: 20rem;
+    text-align: justify;
+    text-justify: distribute;
 }
 
 .costsection {
