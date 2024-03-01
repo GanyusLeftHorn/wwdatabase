@@ -392,6 +392,9 @@ body {
     margin-top: 10px;
     display: block;
 }
+.skilldescription-image {
+    width: 85rem;
+}
 .skillrule {
     width: 100%;
     margin-left: 0;
