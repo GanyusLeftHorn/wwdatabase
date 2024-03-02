@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Echoes</title>
+
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">共鸣者</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">敌</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">武器</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">背包</span>
+        </a>
+
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
+            <span class="nav-text">Other</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <span class="section">合鸣效果</span>
+
+            
+            <table class="stats">
+                <tr>
+                    <th>Set</th>
+                    <th>2-piece Effect</th>
+                    <th>5-piece Effect</th>
+                </tr>
+    
+                
+                    <tr>
+                        <td>凝夜白霜</td>
+                        <td>冷凝伤害提升10%</td>
+                        <td>使用普攻或重击后，冷凝伤害提升10%，该效果可叠加三层，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>熔山裂谷</td>
+                        <td>热熔伤害提升10%</td>
+                        <td>使用共鸣技能后，热熔伤害提升30%，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>彻空冥雷</td>
+                        <td>导电伤害提升10%</td>
+                        <td>使用重击或共鸣技能后，导电伤害提升15%，该效果可叠加两层，每层各持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>啸谷长风</td>
+                        <td>气动伤害提升10%</td>
+                        <td>使用变奏技能登场时，气动伤害提升30%，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>浮星祛暗</td>
+                        <td>衍射伤害提升10%</td>
+                        <td>使用变奏技能登场时，衍射伤害提升30%，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>沉日劫明</td>
+                        <td>湮灭伤害提升10%</td>
+                        <td>使用普攻或重击后，湮灭伤害提升7.5%，该效果可叠加四层，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>隐世回光</td>
+                        <td>治疗效果提升10%</td>
+                        <td>使用延奏技能后，全队共鸣者攻击力提升15%，持续30秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>轻云出月</td>
+                        <td>共鸣效率提升10%</td>
+                        <td>使用延奏技能后，下一个登场的共鸣者攻击力提升22.5%，持续15秒</td>
+                    </tr>
+                
+                    <tr>
+                        <td>不绝余音</td>
+                        <td>攻击力提升10%</td>
+                        <td>在场时，自身攻击力每1.5秒提升5%，该效果最多叠加四层。延奏技能伤害提升60%</td>
+                    </tr>
+                
+            </table>
+        </div>
+    </body>
+</html>

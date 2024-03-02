@@ -1,0 +1,1177 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Monsters</title>
+
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">共鸣者</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">敌</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">武器</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">背包</span>
+        </a>
+
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
+            <span class="nav-text">Other</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <div class="itemgrid">
+                
+                    <div class="itementry">
+                        <a href="monster_310000010.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000010.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                先锋幼岩
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000010.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000010.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                坚岩斗士
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000010.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000010.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                朔雷之鳞
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000010.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000010.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                无冠者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000020.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000020.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                裂变幼岩
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000030.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000030.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                惊蛰猎手
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000040.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000040.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                破霜猎手
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000050.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000050.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                巡徊猎手
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000060.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000060.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                鸣泣战士
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000070.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000070.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                审判战士
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000080.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000080.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                咔嚓嚓
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000090.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000090.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                阿嗞嗞
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000100.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000100.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                呼咻咻
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000110.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000110.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                呜咔咔
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000120.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000120.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                咕咕河豚
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000130.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000130.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                啾啾河豚
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000140.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000140.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                冷凝棱镜
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000150.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000150.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                热熔棱镜
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000160.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000160.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                衍射棱镜
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000170.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000170.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                湮灭棱镜
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000180.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000180.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                游弋蝶
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000190.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000190.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                碎獠猪
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000200.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000200.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                遁地鼠
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000210.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000210.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                绿熔蜥（稚形）
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000220.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000220.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                刺玫菇（稚形）
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000230.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000230.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000231.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000231.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000232.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000232.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000233.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000233.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000234.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000234.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000235.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000235.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000240.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000240.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000241.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000241.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000242.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000242.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000243.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000243.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000244.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000244.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000245.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000245.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000250.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000250.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                抛石幼猿
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000260.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000260.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                晶螯蝎
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000270.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000270.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                寒霜陆龟
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000280.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000280.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                火鬃狼
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000020.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000020.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                紫羽鹭
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000030.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000030.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                青羽鹭
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000040.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000040.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                奏谕乐师
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000050.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000050.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                振铎乐师
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000060.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000060.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                磐石守卫
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000070.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000070.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                冥渊守卫
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000080.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000080.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                绿熔蜥
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000090.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000090.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                刺玫菇
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000100.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000100.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                暗鬃狼
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000110.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000110.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                嚣风戏猿
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000120.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000120.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                箭簇熊
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000130.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000130.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                车刃镰
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000140.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000140.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者首领
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000150.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000150.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                流放者工匠
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000160.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000160.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                处刑人
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000020.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000020.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                燎照之骑
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000030.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000030.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                无常凶鹭
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000040.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000040.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                辉萤军势
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000050.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000050.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                飞廉之猩
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_330000060.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_330000060.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                哀声鸷
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000020.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000020.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                鸣钟之龟
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000050.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000050.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                伤痕
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000170.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000170.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                躁乱戏猿
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000290.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000290.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                残星·重锤造匠
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000300.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000300.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                锐爪幼猿
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000310.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000310.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_2.png" />
+                            </div>
+                            <div class="navtext">
+                                残星·枭面造匠
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000320.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000320.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_0.png" />
+                            </div>
+                            <div class="navtext">
+                                残星·枪肢造匠
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000330.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000330.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                通行灯偶
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_310000340.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_310000340.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                叮咚咚
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_320000180.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_320000180.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                巡哨机傀
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000060.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000060.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                聚械机偶
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000070.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000070.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                存在异常，如有疑问请联系官方客服
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_340000080.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_340000080.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                云闪之鳞
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000010.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000010.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·哀声鸷
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000020.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000020.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_5.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·磐石护卫
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000030.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000030.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_1.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·寒霜陆龟
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000040.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000040.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_3.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·云闪之鳞
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000050.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000050.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_4.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·飞廉之猩
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="itementry">
+                        <a href="monster_350000060.html">
+                            <div class="navicon-container">
+                                <img class="navicon" src="/img/monster_350000060.png" />
+                            </div>
+                            <div class="navelement-container">
+                                <img class="navelement" src="/img/element_6.png" />
+                            </div>
+                            <div class="navtext">
+                                异象·无常凶鹭
+                            </div>
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

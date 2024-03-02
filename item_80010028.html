@@ -6,36 +6,45 @@
         <meta charset="utf-8">
         <title>Chili Sauce Tofu Recipe (80010028)</title>
 
-        <link rel="stylesheet" href="./style.css?v=0.4" />
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
     </head>
 
     <body>
         <div class="navigation">
     <div class="nav-container">
-        <a href="./index.html" class="nav-entry">
-            <img class="nav-icon" src="img/roles.png" />
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
             <span class="nav-text">Resonators</span>
         </a>
 
-        <a href="./monsters.html" class="nav-entry">
-            <img class="nav-icon" src="img/monsters.png" />
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
             <span class="nav-text">Monsters</span>
         </a>
 
-        <a href="./weapons.html" class="nav-entry">
-            <img class="nav-icon" src="img/weapons.png" />
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
             <span class="nav-text">Weapons</span>
         </a>
 
-        <a href="./items.html" class="nav-entry">
-            <img class="nav-icon" src="img/bag.png" />
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
             <span class="nav-text">Items</span>
         </a>
 
-        <a href="./other.html" class="nav-entry">
-            <img class="nav-icon" src="img/other.png" />
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
             <span class="nav-text">Other</span>
         </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
     </div>
 </div>
 
@@ -45,7 +54,7 @@
             <span class="itemtype">Resources</span>
 
             <span class="basetable">
-                <img class="icon-item" src="img/item_80010028.png" />
+                <img class="icon-item" src="/img/item_80010028.png" />
 
                 <span class="baseinfo">
                     <span class="description">After use, you will learn how to make Chili Sauce Tofu.</span><br /><br />

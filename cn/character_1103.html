@@ -1,0 +1,3127 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>白芷 (1103)</title>
+
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">共鸣者</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">敌</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">武器</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">背包</span>
+        </a>
+
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
+            <span class="nav-text">Other</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <span class="name">白芷</span>
+            <span class="nickname">忧昙伴生</span>
+
+            <span class="basetable">
+                <img class="icon-role" src="/img/rolecard_1103.png" />
+
+                <span class="baseinfo-data">
+                    <table class="infotable">
+                        <tr>
+                            <td class="infokey">品质</td>
+                            <td class="infovalue">4-star</td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">元素属</td>
+                            <td class="infovalue"><span class="Ice">冷凝</span></td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">武器</td>
+                            <td class="infovalue">Rectifier</td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">生日</td>
+                            <td class="infovalue">9月10日</td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">性别</td>
+                            <td class="infovalue">女</td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">出生</td>
+                            <td class="infovalue">瑝珑</td>
+                        </tr>
+                        <tr>
+                            <td class="infokey">势力</td>
+                            <td class="infovalue">今州</td>
+                        </tr>
+                    </table>
+
+                    <span class="description">白芷，主攻回音声态的华胥研究员。
+未能实现的愿望以另一种形式伴她左右，赋予她疗愈生命的能力，也成为她穷极一生研究的课题。</span>
+
+                    <div class="role-navigation">
+                        <a href="#costs"><div class="role-navigation-text">Costs</div></a>
+                        <a href="#skills"><div class="role-navigation-text">技能</div></a>
+                        <a href="#resochains"><div class="role-navigation-text">Resonant Chains</div></a>
+                        
+                            <a href="#stories"><div class="role-navigation-text">Stories</div></a>
+                        
+                        
+                            <a href="#voicelines"><div class="role-navigation-text">Voice Lines</div></a>
+                        
+                    </div>
+                </span>
+
+                <span class="baseinfo">
+                    <table class="stats">
+                        <tr>
+                            <th>等级</th>
+                            <th class="right">生命</th>
+                            <th class="right">攻击</th>
+                            <th class="right">防御</th>
+                        </tr>
+            
+                        
+                            <tr>
+                                <td>1</td>
+                                <td class="right">1,025</td>
+                                <td class="right">17</td>
+                                <td class="right">82</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>20</td>
+                                <td class="right">2,666</td>
+                                <td class="right">44</td>
+                                <td class="right">210</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>20+</td>
+                                <td class="right">3,349</td>
+                                <td class="right">56</td>
+                                <td class="right">263</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>40</td>
+                                <td class="right">5,076</td>
+                                <td class="right">85</td>
+                                <td class="right">398</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>40+</td>
+                                <td class="right">5,760</td>
+                                <td class="right">98</td>
+                                <td class="right">210</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>50</td>
+                                <td class="right">6,624</td>
+                                <td class="right">112</td>
+                                <td class="right">519</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>50+</td>
+                                <td class="right">7,307</td>
+                                <td class="right">125</td>
+                                <td class="right">572</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>60</td>
+                                <td class="right">8,171</td>
+                                <td class="right">139</td>
+                                <td class="right">640</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>60+</td>
+                                <td class="right">8,854</td>
+                                <td class="right">152</td>
+                                <td class="right">693</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>70</td>
+                                <td class="right">9,718</td>
+                                <td class="right">166</td>
+                                <td class="right">760</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>70+</td>
+                                <td class="right">10,401</td>
+                                <td class="right">175</td>
+                                <td class="right">813</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>80</td>
+                                <td class="right">11,265</td>
+                                <td class="right">189</td>
+                                <td class="right">881</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>80+</td>
+                                <td class="right">11,948</td>
+                                <td class="right">198</td>
+                                <td class="right">934</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>90</td>
+                                <td class="right">12,812</td>
+                                <td class="right">212</td>
+                                <td class="right">1,002</td>
+                            </tr>
+                        
+                    </table>
+                </span> 
+            </span>
+
+            <span class="section"><a class="offset-anchor" id="costs"></a>Upgrade Cost</span>
+
+            <div class="basetable">
+                <div class="costsection">
+                    <span class="subsection">Skill Upgrade Cost</span>
+
+                    <div class="costgrid-half">
+                        
+                            <div class="costentry">
+                                <a href="item_2.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_2.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        2030000
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100021.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100021.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        25
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100022.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100022.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        28
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100023.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100023.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        40
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100024.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100024.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        57
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41400094.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41400094.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        26
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_43020031.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_43020031.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        25
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_43020032.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_43020032.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        28
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_43020033.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_43020033.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        55
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_43020034.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_43020034.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        67
+                                    </div>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="costsection">
+                    <span class="subsection">Breakthrough Cost</span>
+
+                    <div class="costgrid-half">
+                        
+                            <div class="costentry">
+                                <a href="item_2.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_2.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        170000
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100021.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100021.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        4
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100022.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100022.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        12
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100023.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100023.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        12
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41100024.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41100024.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        4
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_41400074.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_41400074.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        46
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            <div class="costentry">
+                                <a href="item_42300050.html">
+                                    <div class="costicon-container">
+                                        <img class="costicon" src="/img/item_42300050.png" />
+                                    </div>
+                                    <div class="costtext">
+                                        60
+                                    </div>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <span class="section"><a class="offset-anchor" id="skills"></a>技能</span>
+
+            
+                <div class="skill">
+                    <span class="skillname">常态攻击: 应许</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription"><span><span class="Title">普攻</span></span><br />指挥忧昙进行最多4段连续攻击，造成<span class="Ice">冷凝伤害</span>。<br /><span> </span><br /><span><span class="Title">重击</span></span><br />持续消耗耐力，牵引忧昙不断旋转攻击附近目标，造成<span class="Ice">冷凝伤害</span>。重击期间可控制忧昙进行移动。<br /><span> </span><br /><span><span class="Title">空中攻击</span></span><br />消耗耐力，在空中召唤忧昙进行下落攻击，造成<span class="Ice">冷凝伤害</span>。<br /><span> </span><br /><span><span class="Title">闪避反击</span></span><br />成功<span class="Highlight">闪避</span>后一定时间内使用<span class="Highlight">普攻</span>，将会攻击目标，造成<span class="Ice">冷凝伤害</span>。</span>
+
+                    
+                        <table class="attribs">
+                            <tr>
+                                <th class="center">Attribute</th>
+                                <th class="center">Lv 1</th>
+                                <th class="center">Lv 2</th>
+                                <th class="center">Lv 3</th>
+                                <th class="center">Lv 4</th>
+                                <th class="center">Lv 5</th>
+                                <th class="center">Lv 6</th>
+                                <th class="center">Lv 7</th>
+                                <th class="center">Lv 8</th>
+                                <th class="center">Lv 9</th>
+                                <th class="center">Lv 10</th>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td class="center">第一段伤害</td>
+                                    <td class="center">32.94%</td>
+                                    <td class="center">35.64%</td>
+                                    <td class="center">38.34%</td>
+                                    <td class="center">42.12%</td>
+                                    <td class="center">44.82%</td>
+                                    <td class="center">47.93%</td>
+                                    <td class="center">52.25%</td>
+                                    <td class="center">56.57%</td>
+                                    <td class="center">60.89%</td>
+                                    <td class="center">65.48%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">第二段伤害</td>
+                                    <td class="center">39.52%</td>
+                                    <td class="center">42.76%</td>
+                                    <td class="center">46.01%</td>
+                                    <td class="center">50.54%</td>
+                                    <td class="center">53.78%</td>
+                                    <td class="center">57.51%</td>
+                                    <td class="center">62.69%</td>
+                                    <td class="center">67.88%</td>
+                                    <td class="center">73.06%</td>
+                                    <td class="center">78.57%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">第三段伤害</td>
+                                    <td class="center">6.59%*7</td>
+                                    <td class="center">7.13%*7</td>
+                                    <td class="center">7.67%*7</td>
+                                    <td class="center">8.43%*7</td>
+                                    <td class="center">8.97%*7</td>
+                                    <td class="center">9.59%*7</td>
+                                    <td class="center">10.45%*7</td>
+                                    <td class="center">11.32%*7</td>
+                                    <td class="center">12.18%*7</td>
+                                    <td class="center">13.10%*7</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">第四段伤害</td>
+                                    <td class="center">39.52%</td>
+                                    <td class="center">42.76%</td>
+                                    <td class="center">46.01%</td>
+                                    <td class="center">50.54%</td>
+                                    <td class="center">53.78%</td>
+                                    <td class="center">57.51%</td>
+                                    <td class="center">62.69%</td>
+                                    <td class="center">67.88%</td>
+                                    <td class="center">73.06%</td>
+                                    <td class="center">78.57%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">空中攻击伤害</td>
+                                    <td class="center">76.16%</td>
+                                    <td class="center">82.41%</td>
+                                    <td class="center">88.66%</td>
+                                    <td class="center">97.40%</td>
+                                    <td class="center">103.64%</td>
+                                    <td class="center">110.83%</td>
+                                    <td class="center">120.82%</td>
+                                    <td class="center">130.81%</td>
+                                    <td class="center">140.80%</td>
+                                    <td class="center">151.42%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">空中攻击耐力消耗</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                    <td class="center">30</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">重击伤害</td>
+                                    <td class="center">24.58%</td>
+                                    <td class="center">26.60%</td>
+                                    <td class="center">28.61%</td>
+                                    <td class="center">31.43%</td>
+                                    <td class="center">33.45%</td>
+                                    <td class="center">35.77%</td>
+                                    <td class="center">38.99%</td>
+                                    <td class="center">42.21%</td>
+                                    <td class="center">45.44%</td>
+                                    <td class="center">48.86%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">重击伤害耐力消耗（每秒）</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                    <td class="center">12.5</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">闪避反击伤害</td>
+                                    <td class="center">89.86%</td>
+                                    <td class="center">97.23%</td>
+                                    <td class="center">104.60%</td>
+                                    <td class="center">114.91%</td>
+                                    <td class="center">122.28%</td>
+                                    <td class="center">130.75%</td>
+                                    <td class="center">142.54%</td>
+                                    <td class="center">154.33%</td>
+                                    <td class="center">166.12%</td>
+                                    <td class="center">178.65%</td>
+                                </tr>
+                            
+                        </table>
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000401" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    280000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100021.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100021.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    9
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    4
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020031.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020031.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    8
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    11
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-1000401" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                            <div class="collapsible-section">
+                                <table class="attribs">
+                                    <tr>
+                                        <th class="center">Entry#</th>
+                                        <th class="center">元素属</th>
+                                        <th class="center">Type</th>
+                                        <th class="center">Base Attribute</th>
+                                        <th class="center">Lv 1</th>
+                                        <th class="center">Lv 2</th>
+                                        <th class="center">Lv 3</th>
+                                        <th class="center">Lv 4</th>
+                                        <th class="center">Lv 5</th>
+                                        <th class="center">Lv 6</th>
+                                        <th class="center">Lv 7</th>
+                                        <th class="center">Lv 8</th>
+                                        <th class="center">Lv 9</th>
+                                        <th class="center">Lv 10</th>
+                                        <th class="center">共鸣解放能量</th>
+                                        <th class="center">协奏能量</th>
+                                        <th class="center">共振度上限</th>
+                                        <th class="center">韧性</th>
+                                    </tr>
+
+                                    
+                                        <tr>
+                                            <td class="center">1</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">32.94%</td>
+                                            <td class="center">35.64%</td>
+                                            <td class="center">38.34%</td>
+                                            <td class="center">42.12%</td>
+                                            <td class="center">44.82%</td>
+                                            <td class="center">47.93%</td>
+                                            <td class="center">52.25%</td>
+                                            <td class="center">56.57%</td>
+                                            <td class="center">60.89%</td>
+                                            <td class="center">65.48%</td>
+                                            <td class="center">1.02</td>
+                                            <td class="center">3.85</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.103</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">2</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">39.52%</td>
+                                            <td class="center">42.76%</td>
+                                            <td class="center">46.01%</td>
+                                            <td class="center">50.54%</td>
+                                            <td class="center">53.78%</td>
+                                            <td class="center">57.51%</td>
+                                            <td class="center">62.69%</td>
+                                            <td class="center">67.88%</td>
+                                            <td class="center">73.06%</td>
+                                            <td class="center">78.57%</td>
+                                            <td class="center">1.23</td>
+                                            <td class="center">4.63</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.1235</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">3</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">6.59%</td>
+                                            <td class="center">7.13%</td>
+                                            <td class="center">7.67%</td>
+                                            <td class="center">8.43%</td>
+                                            <td class="center">8.97%</td>
+                                            <td class="center">9.59%</td>
+                                            <td class="center">10.45%</td>
+                                            <td class="center">11.32%</td>
+                                            <td class="center">12.18%</td>
+                                            <td class="center">13.1%</td>
+                                            <td class="center">0.2</td>
+                                            <td class="center">0.77</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.0206</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">4</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">39.52%</td>
+                                            <td class="center">42.76%</td>
+                                            <td class="center">46.01%</td>
+                                            <td class="center">50.54%</td>
+                                            <td class="center">53.78%</td>
+                                            <td class="center">57.51%</td>
+                                            <td class="center">62.69%</td>
+                                            <td class="center">67.88%</td>
+                                            <td class="center">73.06%</td>
+                                            <td class="center">78.57%</td>
+                                            <td class="center">1.23</td>
+                                            <td class="center">4.63</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.1235</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">5</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">24.58%</td>
+                                            <td class="center">26.6%</td>
+                                            <td class="center">28.61%</td>
+                                            <td class="center">31.43%</td>
+                                            <td class="center">33.45%</td>
+                                            <td class="center">35.77%</td>
+                                            <td class="center">38.99%</td>
+                                            <td class="center">42.21%</td>
+                                            <td class="center">45.44%</td>
+                                            <td class="center">48.86%</td>
+                                            <td class="center">0.6</td>
+                                            <td class="center">2.4</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.06</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">6</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">89.86%</td>
+                                            <td class="center">97.23%</td>
+                                            <td class="center">104.6%</td>
+                                            <td class="center">114.91%</td>
+                                            <td class="center">122.28%</td>
+                                            <td class="center">130.75%</td>
+                                            <td class="center">142.54%</td>
+                                            <td class="center">154.33%</td>
+                                            <td class="center">166.12%</td>
+                                            <td class="center">178.65%</td>
+                                            <td class="center">2.8</td>
+                                            <td class="center">6.03</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">1.5</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">7</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">76.16%</td>
+                                            <td class="center">82.41%</td>
+                                            <td class="center">88.66%</td>
+                                            <td class="center">97.4%</td>
+                                            <td class="center">103.64%</td>
+                                            <td class="center">110.83%</td>
+                                            <td class="center">120.82%</td>
+                                            <td class="center">130.81%</td>
+                                            <td class="center">140.8%</td>
+                                            <td class="center">151.42%</td>
+                                            <td class="center">2.38</td>
+                                            <td class="center">8.92</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.238</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">8</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">55.49%</td>
+                                            <td class="center">60.04%</td>
+                                            <td class="center">64.59%</td>
+                                            <td class="center">70.96%</td>
+                                            <td class="center">75.51%</td>
+                                            <td class="center">80.75%</td>
+                                            <td class="center">88.03%</td>
+                                            <td class="center">95.31%</td>
+                                            <td class="center">102.59%</td>
+                                            <td class="center">110.32%</td>
+                                            <td class="center">1.73</td>
+                                            <td class="center">6.5</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.1734</td>
+                                        </tr>
+                                    
+                                </table>
+
+                                <div class="damage-note">Note: There currently seem to be unused damage data entries for skills in the game. Not all of the entries listed above are necessarily used in the game.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">共鸣技能: 应急预案</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">呼唤忧昙造成冷凝伤害，并立即为附近队伍中所有角色回复生命值。</span>
+
+                    
+                        <table class="attribs">
+                            <tr>
+                                <th class="center">Attribute</th>
+                                <th class="center">Lv 1</th>
+                                <th class="center">Lv 2</th>
+                                <th class="center">Lv 3</th>
+                                <th class="center">Lv 4</th>
+                                <th class="center">Lv 5</th>
+                                <th class="center">Lv 6</th>
+                                <th class="center">Lv 7</th>
+                                <th class="center">Lv 8</th>
+                                <th class="center">Lv 9</th>
+                                <th class="center">Lv 10</th>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td class="center">治疗量</td>
+                                    <td class="center">575+2.90%</td>
+                                    <td class="center">623+3.14%</td>
+                                    <td class="center">670+3.37%</td>
+                                    <td class="center">736+3.71%</td>
+                                    <td class="center">783+3.94%</td>
+                                    <td class="center">837+4.22%</td>
+                                    <td class="center">913+4.60%</td>
+                                    <td class="center">988+4.98%</td>
+                                    <td class="center">1064+5.36%</td>
+                                    <td class="center">1144+5.76%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">技能伤害</td>
+                                    <td class="center">8.02%</td>
+                                    <td class="center">8.68%</td>
+                                    <td class="center">9.34%</td>
+                                    <td class="center">10.26%</td>
+                                    <td class="center">10.91%</td>
+                                    <td class="center">11.67%</td>
+                                    <td class="center">12.72%</td>
+                                    <td class="center">13.77%</td>
+                                    <td class="center">14.82%</td>
+                                    <td class="center">15.94%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">冷却时间</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                    <td class="center">16</td>
+                                </tr>
+                            
+                        </table>
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000402" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    280000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100021.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100021.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    9
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    4
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020031.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020031.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    8
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    11
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-1000402" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                            <div class="collapsible-section">
+                                <table class="attribs">
+                                    <tr>
+                                        <th class="center">Entry#</th>
+                                        <th class="center">元素属</th>
+                                        <th class="center">Type</th>
+                                        <th class="center">Base Attribute</th>
+                                        <th class="center">Lv 1</th>
+                                        <th class="center">Lv 2</th>
+                                        <th class="center">Lv 3</th>
+                                        <th class="center">Lv 4</th>
+                                        <th class="center">Lv 5</th>
+                                        <th class="center">Lv 6</th>
+                                        <th class="center">Lv 7</th>
+                                        <th class="center">Lv 8</th>
+                                        <th class="center">Lv 9</th>
+                                        <th class="center">Lv 10</th>
+                                        <th class="center">共鸣解放能量</th>
+                                        <th class="center">协奏能量</th>
+                                        <th class="center">共振度上限</th>
+                                        <th class="center">韧性</th>
+                                    </tr>
+
+                                    
+                                        <tr>
+                                            <td class="center">1</td>
+                                            <td class="center"><span class="Physical">物理</span></td>
+                                            <td class="center">Healing</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">575 +2.9%</td>
+                                            <td class="center">623 +3.14%</td>
+                                            <td class="center">670 +3.38%</td>
+                                            <td class="center">736 +3.71%</td>
+                                            <td class="center">783 +3.95%</td>
+                                            <td class="center">837 +4.22%</td>
+                                            <td class="center">913 +4.6%</td>
+                                            <td class="center">988 +4.98%</td>
+                                            <td class="center">1064 +5.36%</td>
+                                            <td class="center">1144 +5.77%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">2</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">8.02%</td>
+                                            <td class="center">8.68%</td>
+                                            <td class="center">9.34%</td>
+                                            <td class="center">10.26%</td>
+                                            <td class="center">10.91%</td>
+                                            <td class="center">11.67%</td>
+                                            <td class="center">12.72%</td>
+                                            <td class="center">13.77%</td>
+                                            <td class="center">14.82%</td>
+                                            <td class="center">15.94%</td>
+                                            <td class="center">7.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">2.0</td>
+                                        </tr>
+                                    
+                                </table>
+
+                                <div class="damage-note">Note: There currently seem to be unused damage data entries for skills in the game. Not all of the entries listed above are necessarily used in the game.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">共鸣解放: 刹那合弥</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">召唤忧昙瞬间为附近队伍中所有角色回复生命值，并依次产生4段<span class="Highlight">频隙回响</span>。<br /><span> </span><br /><span><span class="Title">频隙回响</span></span><br />频隙回响会跟随队伍中登场角色，每2.5秒会自动攻击目标，命中目标时造成<span class="Ice">冷凝伤害</span>，并以命中点为中心，为附近队伍中所有角色回复生命值。</span>
+
+                    
+                        <table class="attribs">
+                            <tr>
+                                <th class="center">Attribute</th>
+                                <th class="center">Lv 1</th>
+                                <th class="center">Lv 2</th>
+                                <th class="center">Lv 3</th>
+                                <th class="center">Lv 4</th>
+                                <th class="center">Lv 5</th>
+                                <th class="center">Lv 6</th>
+                                <th class="center">Lv 7</th>
+                                <th class="center">Lv 8</th>
+                                <th class="center">Lv 9</th>
+                                <th class="center">Lv 10</th>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td class="center">刹那合弥治疗量</td>
+                                    <td class="center">310+1.26%</td>
+                                    <td class="center">336+1.36%</td>
+                                    <td class="center">361+1.47%</td>
+                                    <td class="center">397+1.61%</td>
+                                    <td class="center">422+1.71%</td>
+                                    <td class="center">452+1.83%</td>
+                                    <td class="center">492+2.00%</td>
+                                    <td class="center">533+2.16%</td>
+                                    <td class="center">574+2.33%</td>
+                                    <td class="center">617+2.51%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">频隙回响伤害</td>
+                                    <td class="center">2.05%</td>
+                                    <td class="center">2.22%</td>
+                                    <td class="center">2.39%</td>
+                                    <td class="center">2.62%</td>
+                                    <td class="center">2.79%</td>
+                                    <td class="center">2.98%</td>
+                                    <td class="center">3.25%</td>
+                                    <td class="center">3.52%</td>
+                                    <td class="center">3.79%</td>
+                                    <td class="center">4.07%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">频隙回响治疗量</td>
+                                    <td class="center">349+1.42%</td>
+                                    <td class="center">378+1.53%</td>
+                                    <td class="center">406+1.65%</td>
+                                    <td class="center">446+1.81%</td>
+                                    <td class="center">475+1.93%</td>
+                                    <td class="center">508+2.06%</td>
+                                    <td class="center">554+2.25%</td>
+                                    <td class="center">599+2.43%</td>
+                                    <td class="center">645+2.62%</td>
+                                    <td class="center">694+2.82%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">冷却时间</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                    <td class="center">25</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">消耗共鸣能量</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                    <td class="center">175</td>
+                                </tr>
+                            
+                        </table>
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000403" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    280000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100021.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100021.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    9
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    4
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020031.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020031.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    8
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    11
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-1000403" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                            <div class="collapsible-section">
+                                <table class="attribs">
+                                    <tr>
+                                        <th class="center">Entry#</th>
+                                        <th class="center">元素属</th>
+                                        <th class="center">Type</th>
+                                        <th class="center">Base Attribute</th>
+                                        <th class="center">Lv 1</th>
+                                        <th class="center">Lv 2</th>
+                                        <th class="center">Lv 3</th>
+                                        <th class="center">Lv 4</th>
+                                        <th class="center">Lv 5</th>
+                                        <th class="center">Lv 6</th>
+                                        <th class="center">Lv 7</th>
+                                        <th class="center">Lv 8</th>
+                                        <th class="center">Lv 9</th>
+                                        <th class="center">Lv 10</th>
+                                        <th class="center">共鸣解放能量</th>
+                                        <th class="center">协奏能量</th>
+                                        <th class="center">共振度上限</th>
+                                        <th class="center">韧性</th>
+                                    </tr>
+
+                                    
+                                        <tr>
+                                            <td class="center">1</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">2.05%</td>
+                                            <td class="center">2.22%</td>
+                                            <td class="center">2.39%</td>
+                                            <td class="center">2.62%</td>
+                                            <td class="center">2.79%</td>
+                                            <td class="center">2.98%</td>
+                                            <td class="center">3.25%</td>
+                                            <td class="center">3.52%</td>
+                                            <td class="center">3.79%</td>
+                                            <td class="center">4.07%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">5.0</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.25</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">2</td>
+                                            <td class="center"><span class="Physical">物理</span></td>
+                                            <td class="center">Healing</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">310 +1.26%</td>
+                                            <td class="center">336 +1.37%</td>
+                                            <td class="center">361 +1.47%</td>
+                                            <td class="center">397 +1.62%</td>
+                                            <td class="center">422 +1.72%</td>
+                                            <td class="center">452 +1.84%</td>
+                                            <td class="center">492 +2.0%</td>
+                                            <td class="center">533 +2.17%</td>
+                                            <td class="center">574 +2.33%</td>
+                                            <td class="center">617 +2.51%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">3</td>
+                                            <td class="center"><span class="Physical">物理</span></td>
+                                            <td class="center">Healing</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">349 +1.42%</td>
+                                            <td class="center">378 +1.54%</td>
+                                            <td class="center">406 +1.65%</td>
+                                            <td class="center">446 +1.82%</td>
+                                            <td class="center">475 +1.93%</td>
+                                            <td class="center">508 +2.07%</td>
+                                            <td class="center">554 +2.25%</td>
+                                            <td class="center">599 +2.44%</td>
+                                            <td class="center">645 +2.63%</td>
+                                            <td class="center">694 +2.82%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                        </tr>
+                                    
+                                </table>
+
+                                <div class="damage-note">Note: There currently seem to be unused damage data entries for skills in the game. Not all of the entries listed above are necessarily used in the game.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">固有技能: 泛音区间</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">施放共鸣技能<span class="Highlight">应急预案</span>时，忧昙会留下一片<span class="Highlight">天籁</span>，存在时间15秒。<br /><span> </span><br /><span><span class="Title">天籁</span></span><br />拾取天籁的角色的攻击提升15%，持续20秒。</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000404" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    10000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">固有技能: 激策回馈</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription"><span class="Highlight">重击</span>每次命中目标时，都能为附近队伍中生命值最少的角色回复生命值，回复量为白芷自身生命上限的0.25%。</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000405" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    20000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">变奏技能: 覆雪流盈</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">白芷召唤忧昙，进行1次俯冲攻击，造成<span class="Ice">冷凝伤害</span>，并为附近队伍中所有角色回复生命值。</span>
+
+                    
+                        <table class="attribs">
+                            <tr>
+                                <th class="center">Attribute</th>
+                                <th class="center">Lv 1</th>
+                                <th class="center">Lv 2</th>
+                                <th class="center">Lv 3</th>
+                                <th class="center">Lv 4</th>
+                                <th class="center">Lv 5</th>
+                                <th class="center">Lv 6</th>
+                                <th class="center">Lv 7</th>
+                                <th class="center">Lv 8</th>
+                                <th class="center">Lv 9</th>
+                                <th class="center">Lv 10</th>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td class="center">技能伤害</td>
+                                    <td class="center">40.00%</td>
+                                    <td class="center">43.28%</td>
+                                    <td class="center">46.56%</td>
+                                    <td class="center">51.16%</td>
+                                    <td class="center">54.44%</td>
+                                    <td class="center">58.21%</td>
+                                    <td class="center">63.46%</td>
+                                    <td class="center">68.70%</td>
+                                    <td class="center">73.95%</td>
+                                    <td class="center">79.53%</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td class="center">覆雪流盈治疗量</td>
+                                    <td class="center">75+0.38%</td>
+                                    <td class="center">82+0.41%</td>
+                                    <td class="center">88+0.44%</td>
+                                    <td class="center">96+0.48%</td>
+                                    <td class="center">103+0.51%</td>
+                                    <td class="center">110+0.55%</td>
+                                    <td class="center">119+0.60%</td>
+                                    <td class="center">129+0.65%</td>
+                                    <td class="center">139+0.70%</td>
+                                    <td class="center">150+0.75%</td>
+                                </tr>
+                            
+                        </table>
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000406" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    280000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100021.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100021.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    9
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    4
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020031.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020031.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    8
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    11
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-1000406" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                            <div class="collapsible-section">
+                                <table class="attribs">
+                                    <tr>
+                                        <th class="center">Entry#</th>
+                                        <th class="center">元素属</th>
+                                        <th class="center">Type</th>
+                                        <th class="center">Base Attribute</th>
+                                        <th class="center">Lv 1</th>
+                                        <th class="center">Lv 2</th>
+                                        <th class="center">Lv 3</th>
+                                        <th class="center">Lv 4</th>
+                                        <th class="center">Lv 5</th>
+                                        <th class="center">Lv 6</th>
+                                        <th class="center">Lv 7</th>
+                                        <th class="center">Lv 8</th>
+                                        <th class="center">Lv 9</th>
+                                        <th class="center">Lv 10</th>
+                                        <th class="center">共鸣解放能量</th>
+                                        <th class="center">协奏能量</th>
+                                        <th class="center">共振度上限</th>
+                                        <th class="center">韧性</th>
+                                    </tr>
+
+                                    
+                                        <tr>
+                                            <td class="center">1</td>
+                                            <td class="center"><span class="Ice">冷凝</span></td>
+                                            <td class="center">Damage</td>
+                                            <td class="center">攻击</td>
+                                            <td class="center">40.0%</td>
+                                            <td class="center">43.28%</td>
+                                            <td class="center">46.56%</td>
+                                            <td class="center">51.16%</td>
+                                            <td class="center">54.44%</td>
+                                            <td class="center">58.21%</td>
+                                            <td class="center">63.46%</td>
+                                            <td class="center">68.7%</td>
+                                            <td class="center">73.95%</td>
+                                            <td class="center">79.53%</td>
+                                            <td class="center">8.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">1.0</td>
+                                            <td class="center">0.1824</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td class="center">2</td>
+                                            <td class="center"><span class="Physical">物理</span></td>
+                                            <td class="center">Healing</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">75 +0.38%</td>
+                                            <td class="center">82 +0.41%</td>
+                                            <td class="center">88 +0.44%</td>
+                                            <td class="center">96 +0.49%</td>
+                                            <td class="center">103 +0.52%</td>
+                                            <td class="center">110 +0.56%</td>
+                                            <td class="center">119 +0.6%</td>
+                                            <td class="center">129 +0.65%</td>
+                                            <td class="center">139 +0.7%</td>
+                                            <td class="center">150 +0.76%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                        </tr>
+                                    
+                                </table>
+
+                                <div class="damage-note">Note: There currently seem to be unused damage data entries for skills in the game. Not all of the entries listed above are necessarily used in the game.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">延奏技能: 命源输送</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">白芷提供医疗支援，令场上的角色每3秒回复白芷生命上限1.54%的生命值，持续30秒。受到此治疗效果时，角色获得伤害加深15%，持续6秒。</span>
+
+                    
+                    
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">共鸣回路: 溯生环复</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription"><span><span class="Title">忧昙</span></span><br />与白芷存在精神连接、能响应其意愿的回音生物，继承白芷的全部属性。白芷闪避时，忧昙会回到白芷身边。<br /><span> </span><br /><span><span class="Title">念意</span></span><br />通过施放<span class="Highlight">重击</span>、共鸣技能<span class="Highlight">应急预案</span>时，会消耗所有念意，每消耗1点念意，额外回复1次生命值，每次回复间隔2秒。<br />通过施放<span class="Highlight">重击</span>消耗念意时，每1点念意为白芷回复4点协奏能量和2.5点共鸣能量；<br />通过施放共鸣技能<span class="Highlight">应急预案</span>消耗念意时，每1点念意为白芷回复8点协奏能量。<br /><span> </span><br /><span><span class="Title">念意获取规则</span></span><br /><span class="Highlight">普攻</span>命中目标时，获得1点念意。</span>
+
+                    
+                        <table class="attribs">
+                            <tr>
+                                <th class="center">Attribute</th>
+                                <th class="center">Lv 1</th>
+                                <th class="center">Lv 2</th>
+                                <th class="center">Lv 3</th>
+                                <th class="center">Lv 4</th>
+                                <th class="center">Lv 5</th>
+                                <th class="center">Lv 6</th>
+                                <th class="center">Lv 7</th>
+                                <th class="center">Lv 8</th>
+                                <th class="center">Lv 9</th>
+                                <th class="center">Lv 10</th>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td class="center">念意治疗量</td>
+                                    <td class="center">32+0.16%</td>
+                                    <td class="center">34+0.17%</td>
+                                    <td class="center">37+0.18%</td>
+                                    <td class="center">40+0.20%</td>
+                                    <td class="center">43+0.21%</td>
+                                    <td class="center">46+0.23%</td>
+                                    <td class="center">50+0.25%</td>
+                                    <td class="center">54+0.27%</td>
+                                    <td class="center">58+0.29%</td>
+                                    <td class="center">63+0.31%</td>
+                                </tr>
+                            
+                        </table>
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-1000407" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    280000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100021.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100021.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100022.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100022.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    9
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    4
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020031.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020031.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020032.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020032.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    5
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    8
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    11
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-1000407" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Damage Data</button>
+                            <div class="collapsible-section">
+                                <table class="attribs">
+                                    <tr>
+                                        <th class="center">Entry#</th>
+                                        <th class="center">元素属</th>
+                                        <th class="center">Type</th>
+                                        <th class="center">Base Attribute</th>
+                                        <th class="center">Lv 1</th>
+                                        <th class="center">Lv 2</th>
+                                        <th class="center">Lv 3</th>
+                                        <th class="center">Lv 4</th>
+                                        <th class="center">Lv 5</th>
+                                        <th class="center">Lv 6</th>
+                                        <th class="center">Lv 7</th>
+                                        <th class="center">Lv 8</th>
+                                        <th class="center">Lv 9</th>
+                                        <th class="center">Lv 10</th>
+                                        <th class="center">共鸣解放能量</th>
+                                        <th class="center">协奏能量</th>
+                                        <th class="center">共振度上限</th>
+                                        <th class="center">韧性</th>
+                                    </tr>
+
+                                    
+                                        <tr>
+                                            <td class="center">1</td>
+                                            <td class="center"><span class="Physical">物理</span></td>
+                                            <td class="center">Healing</td>
+                                            <td class="center">生命</td>
+                                            <td class="center">32 +0.16%</td>
+                                            <td class="center">34 +0.18%</td>
+                                            <td class="center">37 +0.19%</td>
+                                            <td class="center">40 +0.21%</td>
+                                            <td class="center">43 +0.22%</td>
+                                            <td class="center">46 +0.23%</td>
+                                            <td class="center">50 +0.25%</td>
+                                            <td class="center">54 +0.28%</td>
+                                            <td class="center">58 +0.3%</td>
+                                            <td class="center">63 +0.32%</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                            <td class="center">0.0</td>
+                                        </tr>
+                                    
+                                </table>
+
+                                <div class="damage-note">Note: There currently seem to be unused damage data entries for skills in the game. Not all of the entries listed above are necessarily used in the game.</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">固有技能: 巧手烹调</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">当前角色烹饪时有概率产出特色料理</span>
+
+                    
+                    
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 治疗效果加成提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">治疗效果加成提升1.80%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-25" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    50000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 生命提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">生命提升1.80%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-26" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    50000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 生命提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">生命提升1.80%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-27" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    50000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 治疗效果加成提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">治疗效果加成提升1.80%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-28" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    50000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100023.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100023.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020033.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020033.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 治疗效果加成提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">治疗效果加成提升4.20%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-29" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    100000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 生命提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">生命提升4.20%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-30" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    100000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 生命提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">生命提升4.20%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-31" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    100000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+                <div class="skill">
+                    <span class="skillname">属性加成: 治疗效果加成提升</span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">治疗效果加成提升4.20%</span>
+
+                    
+                    
+                    
+                        <div class="collapsible-container">
+                            <button id="toggle-cost-32" type="button" class="collapsible-toggle" onclick="collapsibleClick(this.id)">Cost</button>
+                            <div class="collapsible-section">
+                                <div class="costgrid">
+                                    
+                                        <div class="costentry">
+                                            <a href="item_2.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_2.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    100000
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41100024.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41100024.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_41400094.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_41400094.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    1
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="costentry">
+                                            <a href="item_43020034.html">
+                                                <div class="costicon-container">
+                                                    <img class="costicon" src="/img/item_43020034.png" />
+                                                </div>
+                                                <div class="costtext">
+                                                    3
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                    </div>
+            
+
+            <span class="section"><a class="offset-anchor" id="resochains"></a>Resonant Chains</span>
+
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 1<!--: 极简与繁复--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">施放共鸣技能<span class="Highlight">应急预案 </span>时，每消耗1点<span class="Highlight">念意</span>，白芷回复2.5点共鸣能量。</span>
+                </span>
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 2<!--: 沉默的冰原--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">施放共鸣技能<span class="Highlight">应急预案 </span>时，若有4点<span class="Highlight">念意</span>，白芷的冷凝伤害加成提升15%，治疗效果加成提升15%，持续12秒。</span>
+                </span>
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 3<!--: 真理的崇奉--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">施放变奏技能<span class="Highlight">覆雪流盈</span>时，白芷的生命上限提升12%，持续10秒。</span>
+                </span>
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 4<!--: 被追溯的本源--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">施放共鸣解放<span class="Highlight">刹那合弥</span>时，<span class="Highlight">频隙回响</span>获得强化：<br />·<span class="Highlight">频隙回响</span>数量+2；<br />·<span class="Highlight">频隙回响</span>治疗倍率提升20%；<br />·<span class="Highlight">频隙回响</span>造成额外冷凝伤害，伤害值以白芷自身的生命值上限1.2%结算。</span>
+                </span>
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 5<!--: 被回应的祈愿--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">白芷在队伍中时，当队伍中的角色失去意识时，立刻复活该角色并回复该角色生命上限100%的生命，该效果每10分钟可触发1次。</span>
+                </span>
+            
+                <span class="skill">
+                    <span class="skillname">Sequence Node 6<!--: 闻道者的觉悟--></span>
+                    <hr class="skillrule" />
+
+                    <span class="skilldescription">角色拾取<span class="Highlight">天籁</span>时，附近队伍中所有角色的冷凝伤害加成提升12%，持续12秒。</span>
+                </span>
+            
+
+            
+                <span class="section"><a class="offset-anchor" id="stories"></a>Stories</span>
+
+                
+                    <span class="skill">
+                        <span class="skillname">忧昙愈生</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">鉴定依据：【频谱检验报告RA2190-G】<br />共鸣史4年，但于异能觉醒前1年曾接触高强度回音能量，并致使对应回音频段显形。主诉觉醒异能时，处在使队友复生的强烈渴望中，因主诉接触而显形的回音频段，以回音生物的形态回应主诉渴望，常伴其左右。<br />对象声痕位于右腿大腿前侧，共鸣后未出现明显体征变化，但使用共鸣能力时，对象声痕会散发莹白色微光，身侧必定伴随出现上述回音生物。此回音生物通体莹白形若昙花，不能人言，但能与主诉以精神感应的方式沟通。<br />对象无法直接使用异能，但可借助临近极限的低温和回音生物治疗伤势、回复生命。<br />共鸣频谱检验图未见已知相近频率，但与已发现的回音能量波动规律相同，与名为“忧昙”的回音生物存在强谐振反应，但缺乏充足理论支撑，无法确认其共鸣源。<br />受试样本拉贝尔曲线不具收敛性，且出现初段缓慢积蓄和中段陡升的二度变化，检测结果判断为存在潜伏期的突变型共鸣者。</span>
+
+                            
+                                <hr class="storydivider" />
+                                <span class="skilldescription">受试样本波形检测图呈椭圆形波动，时域表示稳定，未见任何异常波动倾向。检测结果判断为正常阶段。<br />当前超频临界值高，稳定性高，无超频风险。<br />无过往超频史。<br />无需心理辅导，但因对象异能与回音生物关系密切，需定期对回音生物的状态进行检测。</span>
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">简单性原则</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">提及白芷，华胥的同事往往会说，她看起来让人难以接近。<br />尽管就在同一个科室，大家却鲜少见她主动发起话题。不仅如此，无论他们埋怨解析的失利，还是交换闲暇时的趣闻，视线扫及白芷，她也总是平静无波，像沉浸在自身运转逻辑中的模组那样，有条不紊地处理着手头的数据。<br />静默以白芷为圆心蔓延，无形间拉开她与人群的距离。<br />与之保持一致的，是白芷在科研时展现出的条理性。<br />周一和周三要观测人造索诺拉，周五是回音频段的解析，剩下的时间则留给野外科考、回音生物观测和案例整合，机动置换。什么阶段做什么事情，什么时间在哪里出现，白芷有着自己的规划。她遵循规划，也调整规划，一步接一步，往下推进。<br />有还未完成的事情，不要紧，继续去做就好。<br />有解决不掉的问题，没关系，那就去了解更多，直到有充分的把握。<br />这份从容自成一体，令他人难以找到和白芷更进一步的契机。而她清冷的面容、交谈时客观疏离的口吻，也让人不由脑补更加不近人情的场景。<br />“上周的报告你没有按时交付。”<br />“是的……那是因为，原先的声骸样本被污染……”<br />“呜，对不起！不，是非、非常抱歉！我，我一定会尽快——“<br />眼见白芷因自己的话语不断靠近，汇报的研究员紧张地抓紧了衣摆，下意识将头埋得更低，然而下一瞬，一份经过处理的样本切片递到他眼前。<br />“裂变幼岩的应该就可以吧。”<br />“但，那不是你的……”<br />“静置演化开始前，补全就好。考虑到这种可能，我提前预留了时间。”<br />“再有类似的情况，你可以第一时间和我说。温度要调高点吗？你刚刚……怎么抖得那么厉害？”<br />天青色的眼眸罕见地泛起波澜，露出纯粹而不加掩饰的困惑。<br />研究员不由怔愣，然后倏地回想起同事们补充的关于白芷的后半句——但只是看起来而已。</span>
+
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">小球与装置</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">小球滚动，坠入弯道，杠杆的一端翘起，力被传导。<br />十一岁的白芷盯着再次停在指定位置的小球，得出了一个结论：无论看起来如何迂回复杂，小球总会遵从装置的设计，不可遏制地滚向既定的终点，没有例外。<br />这让她联想起不久前在书上看到的理论假说，无论哪朝哪代，人类创造的文明无法突破机制的瓶颈，终究会走向既定的结局，衰亡。<br />假设结果总是恒定，所做一切便只是过程的推演复现，是否还有意义？<br />年幼的白芷苦恼于小球衍生的问题，她的父母同样苦恼着关于女儿的问题。<br />对知识充满热情是一件好事，但很显然，白芷对理论的兴趣超过现实生活太多。她总是泡在书房里，阅读他们叫不上名字的晦涩书籍或是利用样本材料模拟信息频段，一坐就是一整天，几乎没什么“活着”的朋友。<br />直到那个午后，白芷受邀来到华胥下设的科考行动基站，目睹到一个更为庞大、复杂的装置——<br />象征不同变量的组件被纳入其中，它们迂回但精准地串联，模拟着某种有机的系统。<br />然而这套装置的缺陷，同样不容忽视，太多步骤尚未补全，可能性导致的不确定，使它还不具备放上小球的资质。<br />思绪发散，白芷将视线停留在已有的部分，试图展开假想和模拟。<br />“感兴趣吗？队里的大家会一起完成它。”<br />领队模样的青年结束科考归来，冲白芷扬起一个大大的笑脸。<br />“这里……这么设计，剩余能量撑不了这么远的距离，信息无法传达。”<br />“一下子就发现了问题……院长说的没错，你果然很有天赋！怎么样，要不要加入我们？”<br />“小球的结局只有一个，在某处停下。但，我看不出你们设计的终点？”<br />“某个……未知但可知的地方吧？总要有终点嘛，但作为装置的构造者，想让小球去哪里、怎么去，你可以和我们所有人一起，找到那份答案啊。”<br />话音刚落，半掩着的门被嘭地撞开，不知何时起躲在门后的其他队员以脸先着地的方式倒进来。他们狼狈却不失友善地看向白芷，期待着她的回应，还有加入。<br />喀拉喀拉，就在那个瞬间，白芷仿佛听见了最开始小球被投入装置中的轻响。</span>
+
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">第三类接触</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">初次接触那段回音，是白芷加入科考队的第四年。<br />彼时，白芷对信息研究的热情有增无减，但她不再溺于书房，而是和成为伙伴的科考队员们一起，亲身丈量文明的厚度。<br />她开始明白，真正的严寒并不止简单一句“零下25℃”，而是不见尽头的银装素裹，是装备了恒温防护仍叫人忍不住打颤，是使用观测仪器前不先手动敲上一敲，就冻得无法运转。<br />理论只是骨架，既成认知搭配上真切的感受，才算血肉丰满。<br />白芷随科考队辗转各处，目标不是寻常遗迹，而是由回音能量构成的超现实空间，索诺拉。他们认为“回音”是纯净完整的信息能量，但无形无相，他们无从捕获，更谈不上采样与解析。<br />突破源于白芷进入的第九个索诺拉。<br />那并非是被侵蚀的扭曲异象，也绝不是已有时刻的如实映射。<br />几何状的建筑看不出材质，不知是什么的光从穹顶的破洞处倾泄，为它们镀上一层流动着的珠光莹泽。<br />白芷等人的到来如同触发了某种开关，原本悬浮于空的建筑开始快速变换排布，构成一个个介于符号和数理间的独特图像。<br />白芷无法做出判断，她不知道这个索诺拉传达着怎样的信息，就像她不确定所见场景究竟映射着过去、现在，还是不可知的未来。但没时间留给惊叹，科研者的本能驱使包括白芷在内的所有人争分夺秒地记录，或许它所指向是一种崭新理论的可能性——<br />观测仪器实时显示频率的波动，白芷隔绝杂念，专注地沉浸在变换着的信息图像中，积攒的理论与感受，都在这一刻派上了用场。<br />距离越短，能耗越低，两点一线，即是源头。<br />就像是构造装置通径一般，白芷选取延展的两端勾连成线，冲着汇聚的中心拿起了采样设备——<br />涌动的光华回应着白芷的举动，凝成一团莹白色的频谱。<br />回音的频段由此捕获显形，盈盈一满却仿若空壳，纯粹又不含杂质。<br />那时的白芷也没想到，它会以另一种形态陪伴在她左右，成为她终其一生探究的课题。</span>
+
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">无限趋近于零</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">对白芷来说，许愿是一种使人困惑的行为。<br />“明知愿望大概率不会成真，还要坚持许愿的意义是什么？这一行为甚至不具备明确的作用对象，许了愿望，就有回应吗？谁来回应？”对上白芷真挚的追问，队友们又一次败下阵来。好在一千多个日夜的相处，他们早已懂得她那份总想要合乎逻辑的认真，也明白她判断或陈述时繁复曲折的口吻，是为了尽可能贴近事实，避免偏差。<br />所以，尽管白芷从不许愿，但当队里的大家对着烛火、落星或其他什么东西许愿时，她总是陪在一旁，从未缺席。<br />正如同他们对她所做的那样，尽管困惑，但仍试图理解，并懂得——<br />“希望——我们能彻底解开回音的奥秘！”<br />“这是可以做到的，但大概率不在我们这一代。”<br />“啊啊啊，虽然是实话……但这也太让人沮丧了！不要把你那拆解步骤的思维用在这里，许愿和事实完全是两回事……总之，等你有愿望的时候就明白了！”<br />在一片死寂的冰原之下，那一天到来了。<br />世界的崩塌往往毫无征兆，鲜活的身影被残象洞穿，那些谈起明天就神采奕奕的眼眸黯淡下去，变得冰冷。<br />白芷又一次摸到停跳的脉搏，心如擂鼓，无法克制的念头在脑海中一遍遍叫嚣，为什么，为什么会这样，好不容易又找到相同的索诺拉，不，不该是这样……她没设想过没有他们的以后。<br />“希望大家醒过来。”<br />她终于有了愿望，却不知向谁许愿，也不知谁能实现。<br />索诺拉扭曲着塌缩，越来越多的残象向她逼近，恨意、悲痛、不甘……纷杂情绪挟裹，却掩不去心底那份越发强烈的渴望，想要大家醒过来，醒过来，像从前一样睁开双眼，回到她身边——<br />声痕显现，一只形似昙花的回音生物，响应了白芷的愿望，就此降临。<br />现如今，白芷还是不会许愿。<br />愿望不是事实，她能真正把握的，只有自己能做到的部分。<br />至于那唯一许过的愿望，就像是无限趋近于零的数，被白芷藏在心间，无法实现，也不会消失。</span>
+
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">小球终会落下</span>
+                        <hr class="skillrule" />
+
+                        
+                            <span class="skilldescription">冰原下发生的一切，终究已成往事。<br />作为唯一的幸存者，白芷也从不主动提及。<br />曾有好事者试图打探其中秘辛，但统统无功而返。没什么见不得光的阴私，每个人都尽了全力，除去运气那种巧合的东西，大众找不出任何一个可以责怪的具体对象。再者说，在探索的途中倒下，是每个踏上科考之路的研究者都假想过的结局。他们奔赴绝境，用身体丈量真实，但他们都知道，死亡也是真实的一部分。<br />所以白芷保持缄默，更多是不知如何去讲。<br />事后的提及改变不了什么，比起言语白芷更愿意将时间花费在更为重要的事上——那些从成为仅剩的那一人开始，就仅她一人能完成的事情。<br />新加入华胥的研究员奔波在回音声态的各个科室，势不可挡地在回音频段解析、声骸使用、索诺拉模拟等领域进行诸多建设。<br />她提出，回音生物是一种由“空壳”衍生出的能量体，它们或许能与人类共感，以频段外的形态降临于世，掌握其中原理，人类或许能研制人造索诺拉和更多的回音生物。这些假设让学术界震撼，但那只与她一起从索诺拉归来的回音生物，恰是最好的实例。<br />她还给那只回音生物起了名字，忧昙，对应优昙婆罗花，白色夜开，翌晨即萎。<br />如昙花一现般难以求得何止佛法，还有关乎这世界的终极真理。但偏偏所有研究者寻觅一生，所求不过这么一现。<br />这名字或是对逝者的铭记，又或是在提点起名者自己，继续走，不要停留，还有太多答案等着被找出。<br />但白芷并不着急，终点一定就在某处，小球落下之前，她只需默默走好脚下的每一步。<br />更何况，她所选并非一条独行的路，在寻觅的过程中，白芷再次遇见了足以被称为伙伴的人。<br />瑝珑野外，那位贵客不知从何而来，但目睹对方吸纳“声音”的瞬间，白芷耳畔仿佛再次浮现无形轻响。<br />喀拉喀拉，一如当初小球落入装置——<br />看吧，那未知但可知的点，是可以被人类找到的。</span>
+
+                            
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">简指之环</span>
+                        <hr class="skillrule" />
+
+                        
+                            <div class="goods-story-grid">
+                                <img class="story-image" src="/img/T_Treasure13_UI.png" />
+                                <div class="skilldescription skilldescription-image">自白芷加入华胥后，就一直戴着的指环。两枚指环造型款式完全相同，仅在磨损度上略微有异。提及指环的具体来历，一说是故人遗留之物，一说是白芷在曾经队友的帮助下研发的特殊装置，是某种回音技术的研究成果，能辅助白芷召唤忧昙，增强两者的联系。<br />总之，没人知晓这个看起来极其简朴的指环为何备受白芷青睐，白芷本人也从想过要去主动解释它们的来历。</div>
+                            </div>
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">拟态模型</span>
+                        <hr class="skillrule" />
+
+                        
+                            <div class="goods-story-grid">
+                                <img class="story-image" src="/img/T_Treasure37_UI.png" />
+                                <div class="skilldescription skilldescription-image">白芷曾无数次观察忧昙，分析它的行为模式、记录它的各类数据，但她还是无法解答关于忧昙的诸多谜题：忧昙究竟由何构成，如何诞生，是否还有更多与它类似的回音生物……在研究院其他同事的启发下，白芷尝试用模型的方式模拟复现忧昙的实体。<br />该模型现已制作完成，共计有205个组件，据说不管是按照何种顺序，甚至是闭着眼睛，白芷都能完美复现出来。尽管该模型与真正的忧昙并不能相比，但至少是对回音生物的一种解构，是从信息频段到实体模拟的一种尝试。</div>
+                            </div>
+                        
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">荣誉勋章</span>
+                        <hr class="skillrule" />
+
+                        
+                            <div class="goods-story-grid">
+                                <img class="story-image" src="/img/T_Treasure5_UI.png" />
+                                <div class="skilldescription skilldescription-image">瑝珑为参与冰原探索的科考队全体颁发的荣誉勋章，一来为感谢其在回音声态领域做出的贡献，二来为表彰其勇敢无畏的科研精神。作为科考队唯一的幸存者，白芷代领了这枚勋章，并一直悉心保存。<br />这是一份缅怀，更是一种荣誉。<br />科学领域中还有很多尚无人踏足新大陆，等待着他们这些探索者闯入，为其发出声音，而人类也会积极回应他们的声音，这就是他们研究“回音”的意义。</div>
+                            </div>
+                        
+                    </span>
+                
+            
+
+            
+                <span class="section"><a class="offset-anchor" id="voicelines"></a>Voice Lines</span>
+
+                
+                    <span class="skill">
+                        <span class="skillname">心声·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">你的身上存在一些与“声音”有关的特性，和你保持接触……或许我能找到研究声态的突破口。不过，如果我的接触让你不适，请直接说明。虽然不太擅长处理这个，但我还是希望在满足求知欲的同时，也平衡好你的心情。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">心声·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">有人说回音生物是“灵魂”的具象体现，的确，它们的频段纯粹洁净，很符合人们对灵魂的想象。不过……忧昙是因回应我的愿望而现形，那些被你吸引、在你途经的地方翩跹着的隙声蝶，又是因为什么？这个问题，或许只有等你恢复记忆才能知道了。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">心声·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">会开始声态相关的研究，不是因为相信，而是因为质疑。我质疑回音不可具象的既有结论，不断调研……直至忧昙于冰原之中给我回应。现如今，那份质疑早已被新的质疑取代，但尚未证无就意味可能证有，直至……我再一次找出答案。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">心声·四</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">世界动态发展，却不是无迹可循，就像戈德堡机械，看似难以预测，其实只要按步骤推导，就能得出顺理成章的结果。所以，要想保证未来的小球不会脱出预期，我们能做的就是将每个步骤的不确定性降到最低。为了足够精准，我不介意曲折迂回的过程。你呢，你是更在意事实的那类人，还是更在意感受的那类人？</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">心声·五</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">很奇怪的一点是，我们之中，明明你才是那个会被深入了解的人。但不知不觉间，却是我在向你敞开吐露，就像是……我也希望能被你了解到更多更多。这一点有些偏离我的初衷，不过意外的，我并不讨厌。或许……再和你接触下去，我还会有其他一反常态的表现，也会由此获得更多预料之外的感受。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">白芷的喜好</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">研究之外的时间，我会尽可能去瑝珑各地走走，品尝当地人的食物，观察当地人的生活……理论推导出的只有很小一部分，更多的必须实际体验才能得出结论。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">白芷的烦恼</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">单纯相同的读音并不能让人做出反应，但放到特定的情景中，就会被无端联想成多种另类的含义，逗得人捧腹大笑。梗，这种缺乏准确划分和清晰定义的概念……很难理解。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">喜欢的食物</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">冰镇后的时蔬水分不易流失，口感鲜甜更甚。如果你也偏好时蔬，可以试试冰镇香苏，会是不错的选择。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">讨厌的食物</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">油炸食品闻起来确实很香，但考虑到它们对健康带来的负影响，还是尽量不吃为好。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">抱负和理想</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">海蚀现象的出现，与其说是颠覆了人类对世界的既有认知，不如说是延展了人类的视野，迫使我们不得不重新搭建一套认识世界的体系。虽然进展还很有限，但只要继续下去，我们一定能找到全新的答案。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">凝音·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">手上的两枚指环，一枚用来铭记，提醒我不能忘却的，一枚用来展望，提醒我尚未抵达的。生命太过短暂，我必须带着他们的份一起往前走，永不停歇。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">凝音·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">因感应到强烈而极致的渴望，忧昙以现在的形态呈现，来到我的身边。但时至今日，我对它、对其他回音生物的理解依旧有限，它们与人类认知中其他生命体完全不同……或许这也是忧昙回应我的原因——给予我一个解开谜题的机会。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">关于秧秧</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">有的人善于倾听，有的人善于开解，秧秧则两者兼备。和她相处，你用不着拘谨，只需要做你自己就好。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">关于炽霞</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">刚认识的时候，还有些不知所措……炽霞的情绪总是饱满高涨，关注点也和我的截然不同。后来……逐渐明白了彼此的思考回路，行动起来反而有种别样的默契。正因为不同，才刚好互补吧。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">关于莫特斐</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">交集不多，但每次合作都很顺畅。体质原因火气比较旺盛，找他的话可以提前备点金铃子茶，按之前的量来看，一杯下去应该够他舒缓一天了。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">关于相里要</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">和他的天赋一样让人印象深刻的，是他那好说话的脾气。印象中，我还没见他对谁发过火，不管是怎么离谱的需求，他都能做到。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">关于渊武</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">同样的配比和用料，渊武泡的茶总是比店里卖的更清甜。他和我说没什么诀窍，只是用了十成真心的缘故。用真心……就能有这种效果吗？</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">生日祝福</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">庆贺诞生的日子，应该要有些优待……嗯，你再靠过来些……忧昙的拥抱可以舒缓身体的疲惫，它还是第一次对我以外的人这样做。生日快乐，漂泊者。这是它的心意，也是我的。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">闲趣·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">嗯……可能性的指向，并不唯一。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">闲趣·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">念念不忘，会有回响。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">闲趣·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">（语气词）</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">自我介绍</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">白芷，华胥研究院研究员。主攻回音声态，相关问题可以找我。嗯……其他方面的探讨我也不介意，只是非我擅长的领域，不排除无法给出答案的可能，能提前告知准备是最好的。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">初奏</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">华胥研究员，白芷。让我看看吧，由相遇推导出的必然性。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">入队·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">多说无益，用行动检验结果吧。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">入队·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">但愿，我们能更接近答案。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">入队·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">这一次，我和忧昙会护大家周全。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">突破·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">思绪豁然开朗，和忧昙的共鸣也更加强烈……这种提升，是因为你的帮忙吧？</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">突破·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">世间只有尚未认知之物，没有不可认知之物。距离所求真理，我似乎更近了一步。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">突破·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">能和忧昙做到的事，变得更多了。非唯一的可能性……原来我并不抗拒这样的感受。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">突破·四</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">力量满溢，超出了已知范畴。作为回馈，我会穷极这份由你赋予的未知。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">突破·五</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">又一次，你向我展现了无法言说的“秘法”。但比起其中原理，我更好奇做出这一切的你。接下来，你还会创造什么样的可能？这种程度的期待……很显然，你和其他所有人都不同，是例外的。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣技能·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">复愈。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣技能·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">传频。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣技能·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">弥合。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣解放·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">弥生响彻。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣解放·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">融雪回春。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">共鸣解放·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">真理的通途。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">逆势回击</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">弱点突破。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">召唤忧昙</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">起念。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">召回忧昙</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">俱寂。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">受击·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">疏忽了。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">受击·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">麻烦了。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">受击·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">保持警惕。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">重伤·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">容错区间内。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">重伤·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">尚在…把握。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">重伤·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">必须…转换策略。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">力竭·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">验证失败。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">力竭·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">还没得出结论…</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">力竭·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">朝闻道，夕死可矣。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">声骸异能·召唤</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">残响复现。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">声骸异能·变身</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">身载万象。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">变奏技能</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">由我处理。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">进战提醒</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">一切就绪。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">滑翔</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">凭风。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">钩索</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">借力。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">感知</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">有新发现。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">冲刺</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">（语气词）</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">纵跑</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">（语气词）</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">获得补给·一</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">收下吧，文明的馈赠。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">获得补给·二</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">也好，算是不虚此行。</span>
+                    </span>
+                
+                    <span class="skill">
+                        <span class="skillname">获得补给·三</span>
+                        <hr class="skillrule" />
+                        <span class="skilldescription">你的发现，交由你来处置。</span>
+                    </span>
+                
+            
+        </div>
+    </body>
+</html>

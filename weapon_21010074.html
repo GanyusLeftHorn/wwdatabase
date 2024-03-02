@@ -6,36 +6,45 @@
         <meta charset="utf-8">
         <title>Autumntrace (21010074)</title>
 
-        <link rel="stylesheet" href="./style.css?v=0.4" />
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
     </head>
 
     <body>
         <div class="navigation">
     <div class="nav-container">
-        <a href="./index.html" class="nav-entry">
-            <img class="nav-icon" src="img/roles.png" />
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
             <span class="nav-text">Resonators</span>
         </a>
 
-        <a href="./monsters.html" class="nav-entry">
-            <img class="nav-icon" src="img/monsters.png" />
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
             <span class="nav-text">Monsters</span>
         </a>
 
-        <a href="./weapons.html" class="nav-entry">
-            <img class="nav-icon" src="img/weapons.png" />
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
             <span class="nav-text">Weapons</span>
         </a>
 
-        <a href="./items.html" class="nav-entry">
-            <img class="nav-icon" src="img/bag.png" />
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
             <span class="nav-text">Items</span>
         </a>
 
-        <a href="./other.html" class="nav-entry">
-            <img class="nav-icon" src="img/other.png" />
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
             <span class="nav-text">Other</span>
         </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
     </div>
 </div>
 
@@ -45,11 +54,11 @@
             <span class="description">This Broadblade is the ceremonial weapon used by the Jinzhou Magistrate of the Huanglong province at the inauguration ceremony. The golden ginkgo leaf pattern represents that Huanglong should be like ginkgo, although it is left alone in the world, it is still prosperous and long-lasting.</span>
             
             <span class="basetable">
-                <img class="icon-weapon" src="img/weapon_21010074.png" />
+                <img class="icon-weapon" src="/img/weapon_21010074.png" />
 
                 <span class="baseinfo">
                     Rarity: 4-star<br />
-                    Type: Broadblade<br />
+                    Weapon Type: Broadblade<br />
                     
                     <table class="stats">
                         <tr>
@@ -154,9 +163,9 @@
             <div class="costgrid">
                 
                     <div class="costentry">
-                        <a href="./item_2.html">
+                        <a href="item_2.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_2.png" />
+                                <img class="costicon" src="/img/item_2.png" />
                             </div>
                             <div class="costtext">
                                 264000
@@ -165,9 +174,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_41100011.html">
+                        <a href="item_41100011.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_41100011.png" />
+                                <img class="costicon" src="/img/item_41100011.png" />
                             </div>
                             <div class="costtext">
                                 5
@@ -176,9 +185,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_41100012.html">
+                        <a href="item_41100012.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_41100012.png" />
+                                <img class="costicon" src="/img/item_41100012.png" />
                             </div>
                             <div class="costtext">
                                 5
@@ -187,9 +196,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_41100013.html">
+                        <a href="item_41100013.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_41100013.png" />
+                                <img class="costicon" src="/img/item_41100013.png" />
                             </div>
                             <div class="costtext">
                                 9
@@ -198,9 +207,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_41100014.html">
+                        <a href="item_41100014.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_41100014.png" />
+                                <img class="costicon" src="/img/item_41100014.png" />
                             </div>
                             <div class="costtext">
                                 11
@@ -209,9 +218,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_43020041.html">
+                        <a href="item_43020041.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_43020041.png" />
+                                <img class="costicon" src="/img/item_43020041.png" />
                             </div>
                             <div class="costtext">
                                 5
@@ -220,9 +229,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_43020042.html">
+                        <a href="item_43020042.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_43020042.png" />
+                                <img class="costicon" src="/img/item_43020042.png" />
                             </div>
                             <div class="costtext">
                                 7
@@ -231,9 +240,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_43020043.html">
+                        <a href="item_43020043.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_43020043.png" />
+                                <img class="costicon" src="/img/item_43020043.png" />
                             </div>
                             <div class="costtext">
                                 5
@@ -242,9 +251,9 @@
                     </div>
                 
                     <div class="costentry">
-                        <a href="./item_43020044.html">
+                        <a href="item_43020044.html">
                             <div class="costicon-container">
-                                <img class="costicon" src="./img/item_43020044.png" />
+                                <img class="costicon" src="/img/item_43020044.png" />
                             </div>
                             <div class="costtext">
                                 17

@@ -6,37 +6,45 @@
         <meta charset="utf-8">
         <title>Rover (1502)</title>
 
-        <link rel="stylesheet" href="./style.css?v=0.4" />
-        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
     </head>
 
     <body>
         <div class="navigation">
     <div class="nav-container">
-        <a href="./index.html" class="nav-entry">
-            <img class="nav-icon" src="img/roles.png" />
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
             <span class="nav-text">Resonators</span>
         </a>
 
-        <a href="./monsters.html" class="nav-entry">
-            <img class="nav-icon" src="img/monsters.png" />
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
             <span class="nav-text">Monsters</span>
         </a>
 
-        <a href="./weapons.html" class="nav-entry">
-            <img class="nav-icon" src="img/weapons.png" />
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
             <span class="nav-text">Weapons</span>
         </a>
 
-        <a href="./items.html" class="nav-entry">
-            <img class="nav-icon" src="img/bag.png" />
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
             <span class="nav-text">Items</span>
         </a>
 
-        <a href="./other.html" class="nav-entry">
-            <img class="nav-icon" src="img/other.png" />
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
             <span class="nav-text">Other</span>
         </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
     </div>
 </div>
 
@@ -45,7 +53,7 @@
             <span class="nickname">Echo</span>
 
             <span class="basetable">
-                <img class="icon-role" src="img/rolecard_1502.png" />
+                <img class="icon-role" src="/img/rolecard_1502.png" />
 
                 <span class="baseinfo-data">
                     <table class="infotable">
@@ -215,9 +223,9 @@
                     <div class="costgrid-half">
                         
                             <div class="costentry">
-                                <a href="./item_2.html">
+                                <a href="item_2.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_2.png" />
+                                        <img class="costicon" src="/img/item_2.png" />
                                     </div>
                                     <div class="costtext">
                                         2030000
@@ -226,9 +234,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100011.html">
+                                <a href="item_41100011.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100011.png" />
+                                        <img class="costicon" src="/img/item_41100011.png" />
                                     </div>
                                     <div class="costtext">
                                         25
@@ -237,9 +245,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100012.html">
+                                <a href="item_41100012.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100012.png" />
+                                        <img class="costicon" src="/img/item_41100012.png" />
                                     </div>
                                     <div class="costtext">
                                         28
@@ -248,9 +256,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100013.html">
+                                <a href="item_41100013.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100013.png" />
+                                        <img class="costicon" src="/img/item_41100013.png" />
                                     </div>
                                     <div class="costtext">
                                         40
@@ -259,9 +267,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100014.html">
+                                <a href="item_41100014.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100014.png" />
+                                        <img class="costicon" src="/img/item_41100014.png" />
                                     </div>
                                     <div class="costtext">
                                         57
@@ -270,9 +278,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41400114.html">
+                                <a href="item_41400114.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41400114.png" />
+                                        <img class="costicon" src="/img/item_41400114.png" />
                                     </div>
                                     <div class="costtext">
                                         26
@@ -281,9 +289,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_43020011.html">
+                                <a href="item_43020011.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_43020011.png" />
+                                        <img class="costicon" src="/img/item_43020011.png" />
                                     </div>
                                     <div class="costtext">
                                         25
@@ -292,9 +300,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_43020012.html">
+                                <a href="item_43020012.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_43020012.png" />
+                                        <img class="costicon" src="/img/item_43020012.png" />
                                     </div>
                                     <div class="costtext">
                                         28
@@ -303,9 +311,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_43020013.html">
+                                <a href="item_43020013.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_43020013.png" />
+                                        <img class="costicon" src="/img/item_43020013.png" />
                                     </div>
                                     <div class="costtext">
                                         55
@@ -314,9 +322,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_43020014.html">
+                                <a href="item_43020014.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_43020014.png" />
+                                        <img class="costicon" src="/img/item_43020014.png" />
                                     </div>
                                     <div class="costtext">
                                         67
@@ -333,9 +341,9 @@
                     <div class="costgrid-half">
                         
                             <div class="costentry">
-                                <a href="./item_2.html">
+                                <a href="item_2.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_2.png" />
+                                        <img class="costicon" src="/img/item_2.png" />
                                     </div>
                                     <div class="costtext">
                                         170000
@@ -344,9 +352,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100011.html">
+                                <a href="item_41100011.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100011.png" />
+                                        <img class="costicon" src="/img/item_41100011.png" />
                                     </div>
                                     <div class="costtext">
                                         4
@@ -355,9 +363,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100012.html">
+                                <a href="item_41100012.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100012.png" />
+                                        <img class="costicon" src="/img/item_41100012.png" />
                                     </div>
                                     <div class="costtext">
                                         12
@@ -366,9 +374,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100013.html">
+                                <a href="item_41100013.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100013.png" />
+                                        <img class="costicon" src="/img/item_41100013.png" />
                                     </div>
                                     <div class="costtext">
                                         12
@@ -377,9 +385,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41100014.html">
+                                <a href="item_41100014.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41100014.png" />
+                                        <img class="costicon" src="/img/item_41100014.png" />
                                     </div>
                                     <div class="costtext">
                                         4
@@ -388,9 +396,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_41300005.html">
+                                <a href="item_41300005.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_41300005.png" />
+                                        <img class="costicon" src="/img/item_41300005.png" />
                                     </div>
                                     <div class="costtext">
                                         5
@@ -399,9 +407,9 @@
                             </div>
                         
                             <div class="costentry">
-                                <a href="./item_42300060.html">
+                                <a href="item_42300060.html">
                                     <div class="costicon-container">
-                                        <img class="costicon" src="./img/item_42300060.png" />
+                                        <img class="costicon" src="/img/item_42300060.png" />
                                     </div>
                                     <div class="costtext">
                                         60
@@ -603,9 +611,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     280000
@@ -614,9 +622,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100011.html">
+                                            <a href="item_41100011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100011.png" />
+                                                    <img class="costicon" src="/img/item_41100011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -625,9 +633,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -636,9 +644,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -647,9 +655,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     9
@@ -658,9 +666,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     4
@@ -669,9 +677,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020011.html">
+                                            <a href="item_43020011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020011.png" />
+                                                    <img class="costicon" src="/img/item_43020011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -680,9 +688,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -691,9 +699,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     8
@@ -702,9 +710,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     11
@@ -1016,9 +1024,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     280000
@@ -1027,9 +1035,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100011.html">
+                                            <a href="item_41100011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100011.png" />
+                                                    <img class="costicon" src="/img/item_41100011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1038,9 +1046,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1049,9 +1057,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1060,9 +1068,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     9
@@ -1071,9 +1079,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     4
@@ -1082,9 +1090,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020011.html">
+                                            <a href="item_43020011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020011.png" />
+                                                    <img class="costicon" src="/img/item_43020011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1093,9 +1101,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1104,9 +1112,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     8
@@ -1115,9 +1123,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     11
@@ -1289,9 +1297,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     280000
@@ -1300,9 +1308,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100011.html">
+                                            <a href="item_41100011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100011.png" />
+                                                    <img class="costicon" src="/img/item_41100011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1311,9 +1319,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1322,9 +1330,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1333,9 +1341,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     9
@@ -1344,9 +1352,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     4
@@ -1355,9 +1363,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020011.html">
+                                            <a href="item_43020011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020011.png" />
+                                                    <img class="costicon" src="/img/item_43020011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1366,9 +1374,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1377,9 +1385,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     8
@@ -1388,9 +1396,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     11
@@ -1541,9 +1549,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     280000
@@ -1552,9 +1560,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100011.html">
+                                            <a href="item_41100011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100011.png" />
+                                                    <img class="costicon" src="/img/item_41100011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1563,9 +1571,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1574,9 +1582,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1585,9 +1593,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     9
@@ -1596,9 +1604,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     4
@@ -1607,9 +1615,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020011.html">
+                                            <a href="item_43020011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020011.png" />
+                                                    <img class="costicon" src="/img/item_43020011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1618,9 +1626,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1629,9 +1637,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     8
@@ -1640,9 +1648,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     11
@@ -1841,9 +1849,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     280000
@@ -1852,9 +1860,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100011.html">
+                                            <a href="item_41100011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100011.png" />
+                                                    <img class="costicon" src="/img/item_41100011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1863,9 +1871,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1874,9 +1882,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1885,9 +1893,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     9
@@ -1896,9 +1904,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     4
@@ -1907,9 +1915,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020011.html">
+                                            <a href="item_43020011.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020011.png" />
+                                                    <img class="costicon" src="/img/item_43020011.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1918,9 +1926,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     5
@@ -1929,9 +1937,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     8
@@ -1940,9 +1948,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     11
@@ -2089,9 +2097,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     10000
@@ -2100,9 +2108,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100012.html">
+                                            <a href="item_41100012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100012.png" />
+                                                    <img class="costicon" src="/img/item_41100012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2111,9 +2119,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2122,9 +2130,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020012.html">
+                                            <a href="item_43020012.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020012.png" />
+                                                    <img class="costicon" src="/img/item_43020012.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2155,9 +2163,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     20000
@@ -2166,9 +2174,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2177,9 +2185,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2188,9 +2196,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2234,9 +2242,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     50000
@@ -2245,9 +2253,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2256,9 +2264,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2289,9 +2297,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     50000
@@ -2300,9 +2308,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2311,9 +2319,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2344,9 +2352,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     50000
@@ -2355,9 +2363,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2366,9 +2374,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2399,9 +2407,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     50000
@@ -2410,9 +2418,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100013.html">
+                                            <a href="item_41100013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100013.png" />
+                                                    <img class="costicon" src="/img/item_41100013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2421,9 +2429,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020013.html">
+                                            <a href="item_43020013.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020013.png" />
+                                                    <img class="costicon" src="/img/item_43020013.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2454,9 +2462,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     100000
@@ -2465,9 +2473,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2476,9 +2484,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2487,9 +2495,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2520,9 +2528,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     100000
@@ -2531,9 +2539,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2542,9 +2550,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2553,9 +2561,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2586,9 +2594,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     100000
@@ -2597,9 +2605,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2608,9 +2616,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2619,9 +2627,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2652,9 +2660,9 @@
                                 <div class="costgrid">
                                     
                                         <div class="costentry">
-                                            <a href="./item_2.html">
+                                            <a href="item_2.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_2.png" />
+                                                    <img class="costicon" src="/img/item_2.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     100000
@@ -2663,9 +2671,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41100014.html">
+                                            <a href="item_41100014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41100014.png" />
+                                                    <img class="costicon" src="/img/item_41100014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3
@@ -2674,9 +2682,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_41400114.html">
+                                            <a href="item_41400114.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_41400114.png" />
+                                                    <img class="costicon" src="/img/item_41400114.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     1
@@ -2685,9 +2693,9 @@
                                         </div>
                                     
                                         <div class="costentry">
-                                            <a href="./item_43020014.html">
+                                            <a href="item_43020014.html">
                                                 <div class="costicon-container">
-                                                    <img class="costicon" src="./img/item_43020014.png" />
+                                                    <img class="costicon" src="/img/item_43020014.png" />
                                                 </div>
                                                 <div class="costtext">
                                                     3

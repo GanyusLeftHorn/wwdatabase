@@ -6,36 +6,45 @@
         <meta charset="utf-8">
         <title>Weapons</title>
 
-        <link rel="stylesheet" href="./style.css?v=0.4" />
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
     </head>
 
     <body>
         <div class="navigation">
     <div class="nav-container">
-        <a href="./index.html" class="nav-entry">
-            <img class="nav-icon" src="img/roles.png" />
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
             <span class="nav-text">Resonators</span>
         </a>
 
-        <a href="./monsters.html" class="nav-entry">
-            <img class="nav-icon" src="img/monsters.png" />
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
             <span class="nav-text">Monsters</span>
         </a>
 
-        <a href="./weapons.html" class="nav-entry">
-            <img class="nav-icon" src="img/weapons.png" />
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
             <span class="nav-text">Weapons</span>
         </a>
 
-        <a href="./items.html" class="nav-entry">
-            <img class="nav-icon" src="img/bag.png" />
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
             <span class="nav-text">Items</span>
         </a>
 
-        <a href="./other.html" class="nav-entry">
-            <img class="nav-icon" src="img/other.png" />
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
             <span class="nav-text">Other</span>
         </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
     </div>
 </div>
 
@@ -45,9 +54,9 @@
             <div class="itemgrid">
                 
                     <div class="itementry quality-1">
-                        <a href="./weapon_21010011.html">
+                        <a href="weapon_21010011.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010011.png" />
+                                <img class="navicon" src="/img/weapon_21010011.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Training Broadblade
@@ -56,9 +65,9 @@
                     </div>
                 
                     <div class="itementry quality-2">
-                        <a href="./weapon_21010012.html">
+                        <a href="weapon_21010012.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010012.png" />
+                                <img class="navicon" src="/img/weapon_21010012.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Tyro Broadblade
@@ -67,9 +76,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21010013.html">
+                        <a href="weapon_21010013.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010013.png" />
+                                <img class="navicon" src="/img/weapon_21010013.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Broadblade of Night
@@ -78,9 +87,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21010023.html">
+                        <a href="weapon_21010023.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010023.png" />
+                                <img class="navicon" src="/img/weapon_21010023.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Originite: Type I
@@ -89,9 +98,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21010043.html">
+                        <a href="weapon_21010043.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010043.png" />
+                                <img class="navicon" src="/img/weapon_21010043.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Broadblade of Voyager
@@ -100,9 +109,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21010053.html">
+                        <a href="weapon_21010053.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010053.png" />
+                                <img class="navicon" src="/img/weapon_21010053.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Guardian Broadblade
@@ -111,9 +120,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21010024.html">
+                        <a href="weapon_21010024.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010024.png" />
+                                <img class="navicon" src="/img/weapon_21010024.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Discord
@@ -122,9 +131,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21010034.html">
+                        <a href="weapon_21010034.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010034.png" />
+                                <img class="navicon" src="/img/weapon_21010034.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Broadblade#41
@@ -133,9 +142,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21010044.html">
+                        <a href="weapon_21010044.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010044.png" />
+                                <img class="navicon" src="/img/weapon_21010044.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Dauntless Evernight
@@ -144,9 +153,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21010064.html">
+                        <a href="weapon_21010064.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010064.png" />
+                                <img class="navicon" src="/img/weapon_21010064.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Helios Cleaver
@@ -155,9 +164,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21010074.html">
+                        <a href="weapon_21010074.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010074.png" />
+                                <img class="navicon" src="/img/weapon_21010074.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Autumntrace
@@ -166,9 +175,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21010015.html">
+                        <a href="weapon_21010015.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010015.png" />
+                                <img class="navicon" src="/img/weapon_21010015.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Lustrous Razor
@@ -177,9 +186,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21010016.html">
+                        <a href="weapon_21010016.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21010016.png" />
+                                <img class="navicon" src="/img/weapon_21010016.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Verdant Summit
@@ -194,9 +203,9 @@
             <div class="itemgrid">
                 
                     <div class="itementry quality-1">
-                        <a href="./weapon_21020011.html">
+                        <a href="weapon_21020011.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020011.png" />
+                                <img class="navicon" src="/img/weapon_21020011.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Training Sword
@@ -205,9 +214,9 @@
                     </div>
                 
                     <div class="itementry quality-2">
-                        <a href="./weapon_21020012.html">
+                        <a href="weapon_21020012.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020012.png" />
+                                <img class="navicon" src="/img/weapon_21020012.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Tyro Sword
@@ -216,9 +225,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21020013.html">
+                        <a href="weapon_21020013.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020013.png" />
+                                <img class="navicon" src="/img/weapon_21020013.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Sword of Night
@@ -227,9 +236,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21020023.html">
+                        <a href="weapon_21020023.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020023.png" />
+                                <img class="navicon" src="/img/weapon_21020023.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Originite: Type II
@@ -238,9 +247,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21020043.html">
+                        <a href="weapon_21020043.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020043.png" />
+                                <img class="navicon" src="/img/weapon_21020043.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Sword of Voyager
@@ -249,9 +258,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21020053.html">
+                        <a href="weapon_21020053.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020053.png" />
+                                <img class="navicon" src="/img/weapon_21020053.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Guardian Sword
@@ -260,9 +269,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21020024.html">
+                        <a href="weapon_21020024.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020024.png" />
+                                <img class="navicon" src="/img/weapon_21020024.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Scale: Slasher
@@ -271,9 +280,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21020034.html">
+                        <a href="weapon_21020034.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020034.png" />
+                                <img class="navicon" src="/img/weapon_21020034.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Sword#18
@@ -282,9 +291,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21020044.html">
+                        <a href="weapon_21020044.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020044.png" />
+                                <img class="navicon" src="/img/weapon_21020044.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Commando of Conviction
@@ -293,9 +302,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21020064.html">
+                        <a href="weapon_21020064.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020064.png" />
+                                <img class="navicon" src="/img/weapon_21020064.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Lunar Cutter
@@ -304,9 +313,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21020074.html">
+                        <a href="weapon_21020074.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020074.png" />
+                                <img class="navicon" src="/img/weapon_21020074.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Lumingloss
@@ -315,9 +324,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21020015.html">
+                        <a href="weapon_21020015.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21020015.png" />
+                                <img class="navicon" src="/img/weapon_21020015.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Emerald of Genesis
@@ -332,9 +341,9 @@
             <div class="itemgrid">
                 
                     <div class="itementry quality-1">
-                        <a href="./weapon_21030011.html">
+                        <a href="weapon_21030011.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030011.png" />
+                                <img class="navicon" src="/img/weapon_21030011.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Training Pistols
@@ -343,9 +352,9 @@
                     </div>
                 
                     <div class="itementry quality-2">
-                        <a href="./weapon_21030012.html">
+                        <a href="weapon_21030012.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030012.png" />
+                                <img class="navicon" src="/img/weapon_21030012.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Tyro Pistols
@@ -354,9 +363,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21030013.html">
+                        <a href="weapon_21030013.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030013.png" />
+                                <img class="navicon" src="/img/weapon_21030013.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Pistols of Night
@@ -365,9 +374,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21030053.html">
+                        <a href="weapon_21030053.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030053.png" />
+                                <img class="navicon" src="/img/weapon_21030053.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Guardian Pistols
@@ -376,9 +385,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21030023.html">
+                        <a href="weapon_21030023.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030023.png" />
+                                <img class="navicon" src="/img/weapon_21030023.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Originite: Type III
@@ -387,9 +396,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21030043.html">
+                        <a href="weapon_21030043.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030043.png" />
+                                <img class="navicon" src="/img/weapon_21030043.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Pistols of Voyager
@@ -398,9 +407,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21030024.html">
+                        <a href="weapon_21030024.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030024.png" />
+                                <img class="navicon" src="/img/weapon_21030024.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Cadenza
@@ -409,9 +418,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21030044.html">
+                        <a href="weapon_21030044.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030044.png" />
+                                <img class="navicon" src="/img/weapon_21030044.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Undying Flame
@@ -420,9 +429,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21030064.html">
+                        <a href="weapon_21030064.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030064.png" />
+                                <img class="navicon" src="/img/weapon_21030064.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Novaburst
@@ -431,9 +440,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21030034.html">
+                        <a href="weapon_21030034.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030034.png" />
+                                <img class="navicon" src="/img/weapon_21030034.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Pistols#26
@@ -442,9 +451,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21030074.html">
+                        <a href="weapon_21030074.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030074.png" />
+                                <img class="navicon" src="/img/weapon_21030074.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Thunderbolt
@@ -453,9 +462,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21030015.html">
+                        <a href="weapon_21030015.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21030015.png" />
+                                <img class="navicon" src="/img/weapon_21030015.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Static Mist
@@ -470,9 +479,9 @@
             <div class="itemgrid">
                 
                     <div class="itementry quality-1">
-                        <a href="./weapon_21040011.html">
+                        <a href="weapon_21040011.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040011.png" />
+                                <img class="navicon" src="/img/weapon_21040011.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Training Gauntlets
@@ -481,9 +490,9 @@
                     </div>
                 
                     <div class="itementry quality-2">
-                        <a href="./weapon_21040012.html">
+                        <a href="weapon_21040012.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040012.png" />
+                                <img class="navicon" src="/img/weapon_21040012.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Tyro Gauntlets
@@ -492,9 +501,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21040013.html">
+                        <a href="weapon_21040013.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040013.png" />
+                                <img class="navicon" src="/img/weapon_21040013.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Gauntlets of Night
@@ -503,9 +512,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21040053.html">
+                        <a href="weapon_21040053.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040053.png" />
+                                <img class="navicon" src="/img/weapon_21040053.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Guardian Gauntlets
@@ -514,9 +523,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21040023.html">
+                        <a href="weapon_21040023.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040023.png" />
+                                <img class="navicon" src="/img/weapon_21040023.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Originite: Type IV
@@ -525,9 +534,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21040043.html">
+                        <a href="weapon_21040043.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040043.png" />
+                                <img class="navicon" src="/img/weapon_21040043.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Gauntlets of Voyager
@@ -536,9 +545,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21040024.html">
+                        <a href="weapon_21040024.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040024.png" />
+                                <img class="navicon" src="/img/weapon_21040024.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Marcato
@@ -547,9 +556,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21040044.html">
+                        <a href="weapon_21040044.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040044.png" />
+                                <img class="navicon" src="/img/weapon_21040044.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Amity Accord
@@ -558,9 +567,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21040034.html">
+                        <a href="weapon_21040034.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040034.png" />
+                                <img class="navicon" src="/img/weapon_21040034.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Gauntlets#21D
@@ -569,9 +578,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21040074.html">
+                        <a href="weapon_21040074.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040074.png" />
+                                <img class="navicon" src="/img/weapon_21040074.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Stonard
@@ -580,9 +589,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21040064.html">
+                        <a href="weapon_21040064.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040064.png" />
+                                <img class="navicon" src="/img/weapon_21040064.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Hollow Mirage
@@ -591,9 +600,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21040015.html">
+                        <a href="weapon_21040015.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21040015.png" />
+                                <img class="navicon" src="/img/weapon_21040015.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Abyss Surges
@@ -608,9 +617,9 @@
             <div class="itemgrid">
                 
                     <div class="itementry quality-1">
-                        <a href="./weapon_21050011.html">
+                        <a href="weapon_21050011.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050011.png" />
+                                <img class="navicon" src="/img/weapon_21050011.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Training Rectifier
@@ -619,9 +628,9 @@
                     </div>
                 
                     <div class="itementry quality-2">
-                        <a href="./weapon_21050012.html">
+                        <a href="weapon_21050012.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050012.png" />
+                                <img class="navicon" src="/img/weapon_21050012.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Tyro Rectifier
@@ -630,9 +639,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21050013.html">
+                        <a href="weapon_21050013.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050013.png" />
+                                <img class="navicon" src="/img/weapon_21050013.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Rectifier of Night
@@ -641,9 +650,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21050023.html">
+                        <a href="weapon_21050023.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050023.png" />
+                                <img class="navicon" src="/img/weapon_21050023.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Originite: Type V
@@ -652,9 +661,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21050043.html">
+                        <a href="weapon_21050043.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050043.png" />
+                                <img class="navicon" src="/img/weapon_21050043.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Rectifier of Voyager
@@ -663,9 +672,9 @@
                     </div>
                 
                     <div class="itementry quality-3">
-                        <a href="./weapon_21050053.html">
+                        <a href="weapon_21050053.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050053.png" />
+                                <img class="navicon" src="/img/weapon_21050053.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Guardian Rectifier
@@ -674,9 +683,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21050024.html">
+                        <a href="weapon_21050024.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050024.png" />
+                                <img class="navicon" src="/img/weapon_21050024.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Variation
@@ -685,9 +694,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21050034.html">
+                        <a href="weapon_21050034.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050034.png" />
+                                <img class="navicon" src="/img/weapon_21050034.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Rectifier#25
@@ -696,9 +705,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21050044.html">
+                        <a href="weapon_21050044.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050044.png" />
+                                <img class="navicon" src="/img/weapon_21050044.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Jinzhou Keeper
@@ -707,9 +716,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21050064.html">
+                        <a href="weapon_21050064.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050064.png" />
+                                <img class="navicon" src="/img/weapon_21050064.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Comet Flare
@@ -718,9 +727,9 @@
                     </div>
                 
                     <div class="itementry quality-4">
-                        <a href="./weapon_21050074.html">
+                        <a href="weapon_21050074.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050074.png" />
+                                <img class="navicon" src="/img/weapon_21050074.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Augment
@@ -729,9 +738,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21050015.html">
+                        <a href="weapon_21050015.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050015.png" />
+                                <img class="navicon" src="/img/weapon_21050015.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Cosmic Ripples
@@ -740,9 +749,9 @@
                     </div>
                 
                     <div class="itementry quality-5">
-                        <a href="./weapon_21050016.html">
+                        <a href="weapon_21050016.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/weapon_21050016.png" />
+                                <img class="navicon" src="/img/weapon_21050016.png" />
                             </div>
                             <div class="navtext-weapon">
                                 Stringmaster

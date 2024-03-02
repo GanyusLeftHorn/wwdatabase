@@ -48,6 +48,12 @@ body {
     color: #d0d0d0;
     text-decoration: none;
 }
+.langselect {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 0.8rem;
+    height: 2.5rem;
+}
 
 .content-container {
     max-width: 100rem;

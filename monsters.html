@@ -6,36 +6,45 @@
         <meta charset="utf-8">
         <title>Monsters</title>
 
-        <link rel="stylesheet" href="./style.css?v=0.4" />
+        <link rel="stylesheet" href="./style.css?v=0.5" />
+        <script src="/script.js"></script>
     </head>
 
     <body>
         <div class="navigation">
     <div class="nav-container">
-        <a href="./index.html" class="nav-entry">
-            <img class="nav-icon" src="img/roles.png" />
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
             <span class="nav-text">Resonators</span>
         </a>
 
-        <a href="./monsters.html" class="nav-entry">
-            <img class="nav-icon" src="img/monsters.png" />
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
             <span class="nav-text">Monsters</span>
         </a>
 
-        <a href="./weapons.html" class="nav-entry">
-            <img class="nav-icon" src="img/weapons.png" />
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
             <span class="nav-text">Weapons</span>
         </a>
 
-        <a href="./items.html" class="nav-entry">
-            <img class="nav-icon" src="img/bag.png" />
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
             <span class="nav-text">Items</span>
         </a>
 
-        <a href="./other.html" class="nav-entry">
-            <img class="nav-icon" src="img/other.png" />
+        <a href="other.html" class="nav-entry">
+            <img class="nav-icon" src="/img/other.png" />
             <span class="nav-text">Other</span>
         </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
     </div>
 </div>
 
@@ -43,12 +52,12 @@
             <div class="itemgrid">
                 
                     <div class="itementry">
-                        <a href="./monster_310000010.html">
+                        <a href="monster_310000010.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000010.png" />
+                                <img class="navicon" src="/img/monster_310000010.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Vanguard Junrock
@@ -57,12 +66,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000010.html">
+                        <a href="monster_320000010.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000010.png" />
+                                <img class="navicon" src="/img/monster_320000010.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Stonewall Bracer
@@ -71,12 +80,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000010.html">
+                        <a href="monster_330000010.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000010.png" />
+                                <img class="navicon" src="/img/monster_330000010.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Tempest Mephis
@@ -85,12 +94,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000010.html">
+                        <a href="monster_340000010.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000010.png" />
+                                <img class="navicon" src="/img/monster_340000010.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Crownless
@@ -99,12 +108,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000020.html">
+                        <a href="monster_310000020.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000020.png" />
+                                <img class="navicon" src="/img/monster_310000020.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Fission Junrock
@@ -113,12 +122,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000030.html">
+                        <a href="monster_310000030.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000030.png" />
+                                <img class="navicon" src="/img/monster_310000030.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Electro Predator
@@ -127,12 +136,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000040.html">
+                        <a href="monster_310000040.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000040.png" />
+                                <img class="navicon" src="/img/monster_310000040.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Glacio Predator
@@ -141,12 +150,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000050.html">
+                        <a href="monster_310000050.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000050.png" />
+                                <img class="navicon" src="/img/monster_310000050.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Aero Predator
@@ -155,12 +164,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000060.html">
+                        <a href="monster_310000060.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000060.png" />
+                                <img class="navicon" src="/img/monster_310000060.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Fusion Warrior
@@ -169,12 +178,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000070.html">
+                        <a href="monster_310000070.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000070.png" />
+                                <img class="navicon" src="/img/monster_310000070.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Havoc Warrior
@@ -183,12 +192,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000080.html">
+                        <a href="monster_310000080.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000080.png" />
+                                <img class="navicon" src="/img/monster_310000080.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Snip Snap
@@ -197,12 +206,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000090.html">
+                        <a href="monster_310000090.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000090.png" />
+                                <img class="navicon" src="/img/monster_310000090.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Zig Zag
@@ -211,12 +220,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000100.html">
+                        <a href="monster_310000100.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000100.png" />
+                                <img class="navicon" src="/img/monster_310000100.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Whiff Whaff
@@ -225,12 +234,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000110.html">
+                        <a href="monster_310000110.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000110.png" />
+                                <img class="navicon" src="/img/monster_310000110.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Tick Tack
@@ -239,12 +248,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000120.html">
+                        <a href="monster_310000120.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000120.png" />
+                                <img class="navicon" src="/img/monster_310000120.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Gulpuff
@@ -253,12 +262,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000130.html">
+                        <a href="monster_310000130.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000130.png" />
+                                <img class="navicon" src="/img/monster_310000130.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Chirpuff
@@ -267,12 +276,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000140.html">
+                        <a href="monster_310000140.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000140.png" />
+                                <img class="navicon" src="/img/monster_310000140.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Glacio Prism
@@ -281,12 +290,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000150.html">
+                        <a href="monster_310000150.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000150.png" />
+                                <img class="navicon" src="/img/monster_310000150.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Fusion Prism
@@ -295,12 +304,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000160.html">
+                        <a href="monster_310000160.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000160.png" />
+                                <img class="navicon" src="/img/monster_310000160.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Spectro Prism
@@ -309,12 +318,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000170.html">
+                        <a href="monster_310000170.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000170.png" />
+                                <img class="navicon" src="/img/monster_310000170.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Havoc Prism
@@ -323,12 +332,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000180.html">
+                        <a href="monster_310000180.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000180.png" />
+                                <img class="navicon" src="/img/monster_310000180.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Cruisewing
@@ -337,12 +346,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000190.html">
+                        <a href="monster_310000190.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000190.png" />
+                                <img class="navicon" src="/img/monster_310000190.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Sabyr Boar
@@ -351,12 +360,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000200.html">
+                        <a href="monster_310000200.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000200.png" />
+                                <img class="navicon" src="/img/monster_310000200.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Excarat
@@ -365,12 +374,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000210.html">
+                        <a href="monster_310000210.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000210.png" />
+                                <img class="navicon" src="/img/monster_310000210.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Baby Viridblaze Saurian
@@ -379,12 +388,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000220.html">
+                        <a href="monster_310000220.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000220.png" />
+                                <img class="navicon" src="/img/monster_310000220.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Baby Roseshroom
@@ -393,12 +402,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000230.html">
+                        <a href="monster_310000230.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000230.png" />
+                                <img class="navicon" src="/img/monster_310000230.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Exile Commoner
@@ -407,12 +416,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000231.html">
+                        <a href="monster_310000231.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000231.png" />
+                                <img class="navicon" src="/img/monster_310000231.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -421,12 +430,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000232.html">
+                        <a href="monster_310000232.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000232.png" />
+                                <img class="navicon" src="/img/monster_310000232.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -435,12 +444,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000233.html">
+                        <a href="monster_310000233.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000233.png" />
+                                <img class="navicon" src="/img/monster_310000233.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -449,12 +458,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000234.html">
+                        <a href="monster_310000234.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000234.png" />
+                                <img class="navicon" src="/img/monster_310000234.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -463,12 +472,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000235.html">
+                        <a href="monster_310000235.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000235.png" />
+                                <img class="navicon" src="/img/monster_310000235.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -477,12 +486,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000240.html">
+                        <a href="monster_310000240.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000240.png" />
+                                <img class="navicon" src="/img/monster_310000240.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Exile Commoner (Female)
@@ -491,12 +500,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000241.html">
+                        <a href="monster_310000241.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000241.png" />
+                                <img class="navicon" src="/img/monster_310000241.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -505,12 +514,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000242.html">
+                        <a href="monster_310000242.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000242.png" />
+                                <img class="navicon" src="/img/monster_310000242.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -519,12 +528,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000243.html">
+                        <a href="monster_310000243.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000243.png" />
+                                <img class="navicon" src="/img/monster_310000243.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -533,12 +542,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000244.html">
+                        <a href="monster_310000244.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000244.png" />
+                                <img class="navicon" src="/img/monster_310000244.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -547,12 +556,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000245.html">
+                        <a href="monster_310000245.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000245.png" />
+                                <img class="navicon" src="/img/monster_310000245.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Human Exile
@@ -561,12 +570,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000250.html">
+                        <a href="monster_310000250.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000250.png" />
+                                <img class="navicon" src="/img/monster_310000250.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Hooscamp Flinger
@@ -575,12 +584,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000260.html">
+                        <a href="monster_310000260.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000260.png" />
+                                <img class="navicon" src="/img/monster_310000260.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Diamondclaw
@@ -589,12 +598,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000270.html">
+                        <a href="monster_310000270.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000270.png" />
+                                <img class="navicon" src="/img/monster_310000270.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Hoartoise
@@ -603,12 +612,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000280.html">
+                        <a href="monster_310000280.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000280.png" />
+                                <img class="navicon" src="/img/monster_310000280.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Fusion Dreadmane Minor
@@ -617,12 +626,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000020.html">
+                        <a href="monster_320000020.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000020.png" />
+                                <img class="navicon" src="/img/monster_320000020.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Violet-Feathered Heron
@@ -631,12 +640,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000030.html">
+                        <a href="monster_320000030.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000030.png" />
+                                <img class="navicon" src="/img/monster_320000030.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Cyan-Feathered Heron
@@ -645,12 +654,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000040.html">
+                        <a href="monster_320000040.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000040.png" />
+                                <img class="navicon" src="/img/monster_320000040.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Flautist
@@ -659,12 +668,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000050.html">
+                        <a href="monster_320000050.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000050.png" />
+                                <img class="navicon" src="/img/monster_320000050.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Tambourinist
@@ -673,12 +682,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000060.html">
+                        <a href="monster_320000060.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000060.png" />
+                                <img class="navicon" src="/img/monster_320000060.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Rocksteady Guardian
@@ -687,12 +696,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000070.html">
+                        <a href="monster_320000070.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000070.png" />
+                                <img class="navicon" src="/img/monster_320000070.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Chasm Guardian
@@ -701,12 +710,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000080.html">
+                        <a href="monster_320000080.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000080.png" />
+                                <img class="navicon" src="/img/monster_320000080.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Viridblaze Saurian
@@ -715,12 +724,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000090.html">
+                        <a href="monster_320000090.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000090.png" />
+                                <img class="navicon" src="/img/monster_320000090.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Roseshroom (Mature)
@@ -729,12 +738,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000100.html">
+                        <a href="monster_320000100.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000100.png" />
+                                <img class="navicon" src="/img/monster_320000100.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Havoc Dreadmane
@@ -743,12 +752,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000110.html">
+                        <a href="monster_320000110.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000110.png" />
+                                <img class="navicon" src="/img/monster_320000110.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Hoochief
@@ -757,12 +766,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000120.html">
+                        <a href="monster_320000120.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000120.png" />
+                                <img class="navicon" src="/img/monster_320000120.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Spearback
@@ -771,12 +780,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000130.html">
+                        <a href="monster_320000130.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000130.png" />
+                                <img class="navicon" src="/img/monster_320000130.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Chaserazor
@@ -785,12 +794,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000140.html">
+                        <a href="monster_320000140.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000140.png" />
+                                <img class="navicon" src="/img/monster_320000140.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Exile Leader
@@ -799,12 +808,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000150.html">
+                        <a href="monster_320000150.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000150.png" />
+                                <img class="navicon" src="/img/monster_320000150.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Exile Technician
@@ -813,12 +822,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000160.html">
+                        <a href="monster_320000160.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000160.png" />
+                                <img class="navicon" src="/img/monster_320000160.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Fractsidus Executioner
@@ -827,12 +836,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000020.html">
+                        <a href="monster_330000020.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000020.png" />
+                                <img class="navicon" src="/img/monster_330000020.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Inferno Rider
@@ -841,12 +850,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000030.html">
+                        <a href="monster_330000030.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000030.png" />
+                                <img class="navicon" src="/img/monster_330000030.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Impermanence Heron
@@ -855,12 +864,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000040.html">
+                        <a href="monster_330000040.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000040.png" />
+                                <img class="navicon" src="/img/monster_330000040.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Lampylumen Myriad
@@ -869,12 +878,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000050.html">
+                        <a href="monster_330000050.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000050.png" />
+                                <img class="navicon" src="/img/monster_330000050.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Feilian Beringal
@@ -883,12 +892,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_330000060.html">
+                        <a href="monster_330000060.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_330000060.png" />
+                                <img class="navicon" src="/img/monster_330000060.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Mourning Aix
@@ -897,12 +906,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000020.html">
+                        <a href="monster_340000020.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000020.png" />
+                                <img class="navicon" src="/img/monster_340000020.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Bell-Borne Geochelone
@@ -911,12 +920,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000050.html">
+                        <a href="monster_340000050.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000050.png" />
+                                <img class="navicon" src="/img/monster_340000050.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Scar
@@ -925,12 +934,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000170.html">
+                        <a href="monster_320000170.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000170.png" />
+                                <img class="navicon" src="/img/monster_320000170.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Hoochief Menace
@@ -939,12 +948,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000290.html">
+                        <a href="monster_310000290.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000290.png" />
+                                <img class="navicon" src="/img/monster_310000290.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Fractsidus Thruster
@@ -953,12 +962,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000300.html">
+                        <a href="monster_310000300.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000300.png" />
+                                <img class="navicon" src="/img/monster_310000300.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Hooscamp Clapperclaw
@@ -967,12 +976,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000310.html">
+                        <a href="monster_310000310.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000310.png" />
+                                <img class="navicon" src="/img/monster_310000310.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_2.png" />
+                                <img class="navelement" src="/img/element_2.png" />
                             </div>
                             <div class="navtext">
                                 Fractsidus Cannoneer
@@ -981,12 +990,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000320.html">
+                        <a href="monster_310000320.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000320.png" />
+                                <img class="navicon" src="/img/monster_310000320.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_0.png" />
+                                <img class="navelement" src="/img/element_0.png" />
                             </div>
                             <div class="navtext">
                                 Fractsidus Gunmaster
@@ -995,12 +1004,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000330.html">
+                        <a href="monster_310000330.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000330.png" />
+                                <img class="navicon" src="/img/monster_310000330.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Traffic Illuminator
@@ -1009,12 +1018,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_310000340.html">
+                        <a href="monster_310000340.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_310000340.png" />
+                                <img class="navicon" src="/img/monster_310000340.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Clang Bang
@@ -1023,12 +1032,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_320000180.html">
+                        <a href="monster_320000180.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_320000180.png" />
+                                <img class="navicon" src="/img/monster_320000180.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Autopuppet Scout
@@ -1037,12 +1046,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000060.html">
+                        <a href="monster_340000060.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000060.png" />
+                                <img class="navicon" src="/img/monster_340000060.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Mech Abomination
@@ -1051,12 +1060,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000070.html">
+                        <a href="monster_340000070.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000070.png" />
+                                <img class="navicon" src="/img/monster_340000070.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Anomaly detected, if you have any questions, please contact the official customer service
@@ -1065,12 +1074,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_340000080.html">
+                        <a href="monster_340000080.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_340000080.png" />
+                                <img class="navicon" src="/img/monster_340000080.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Thundering Mephis
@@ -1079,12 +1088,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000010.html">
+                        <a href="monster_350000010.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000010.png" />
+                                <img class="navicon" src="/img/monster_350000010.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Mourning Aix
@@ -1093,12 +1102,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000020.html">
+                        <a href="monster_350000020.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000020.png" />
+                                <img class="navicon" src="/img/monster_350000020.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_5.png" />
+                                <img class="navelement" src="/img/element_5.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Rock Guardian
@@ -1107,12 +1116,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000030.html">
+                        <a href="monster_350000030.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000030.png" />
+                                <img class="navicon" src="/img/monster_350000030.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_1.png" />
+                                <img class="navelement" src="/img/element_1.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Hoartoise
@@ -1121,12 +1130,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000040.html">
+                        <a href="monster_350000040.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000040.png" />
+                                <img class="navicon" src="/img/monster_350000040.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_3.png" />
+                                <img class="navelement" src="/img/element_3.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Thundering Mephis
@@ -1135,12 +1144,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000050.html">
+                        <a href="monster_350000050.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000050.png" />
+                                <img class="navicon" src="/img/monster_350000050.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_4.png" />
+                                <img class="navelement" src="/img/element_4.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Feilian Beringal
@@ -1149,12 +1158,12 @@
                     </div>
                 
                     <div class="itementry">
-                        <a href="./monster_350000060.html">
+                        <a href="monster_350000060.html">
                             <div class="navicon-container">
-                                <img class="navicon" src="img/monster_350000060.png" />
+                                <img class="navicon" src="/img/monster_350000060.png" />
                             </div>
                             <div class="navelement-container">
-                                <img class="navelement" src="img/element_6.png" />
+                                <img class="navelement" src="/img/element_6.png" />
                             </div>
                             <div class="navtext">
                                 Phantom: Impermanence Heron
