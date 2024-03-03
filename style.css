@@ -54,6 +54,12 @@ body {
     margin-top: 0.8rem;
     height: 2.5rem;
 }
+#langselector {
+    background-color: #21232d;
+    border: none;
+    color: #d0d0d0;
+    padding: 0.5rem;
+}
 
 .content-container {
     max-width: 100rem;
