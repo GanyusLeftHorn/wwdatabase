@@ -226,6 +226,25 @@ body {
 
 
 
+.signaturedish {
+    background-color: #393d50;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+}
+.signaturedishicon-container {
+    text-align: center;
+}
+.signaturedishicon {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+
+
+
+
 .storygrid {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -260,23 +279,30 @@ body {
 }
 
 .role-navigation {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
 }
 .role-navigation a {
-    display: block;
-    height: 1.8rem;
+    display: inline-block;
+    height: 2.5rem;
+    width: 15rem;
     background-color: #3f3f49;
     border: 0.1rem solid #d0d0d0;
     border-radius: 0.9rem;
     text-decoration: none;
     margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+    transition-duration: 0.5s;
+}
+.role-navigation a:hover {
+    background-color: #565664;
 }
 .role-navigation-text {
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
     width: 100%;
     text-align: center;
     color: #d0d0d0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .sources-grid {
