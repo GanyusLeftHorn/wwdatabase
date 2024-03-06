@@ -327,6 +327,18 @@ body {
 }
 
 
+
+.setname {
+    width: 25%;
+}
+.seteffect2 {
+    width: 37.5%;
+}
+.seteffect5 {
+    width: 37.5%;
+}
+
+
 .Title {
     font-weight: bold;
     color: #98a6b4;
