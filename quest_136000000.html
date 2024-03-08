@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Camp Raid (136000000)</title>
+
+        <link rel="stylesheet" href="/style.css?v=0.8" />
+        <script src="/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">Resonators</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">Monsters</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">Weapons</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">Items</span>
+        </a>
+
+        <a href="quests.html" class="nav-entry">
+            <img class="nav-icon" src="/img/quest.png" />
+            <span class="nav-text">Quests</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <span class="name">Camp Raid</span>
+            <span class="itemtype">Side Quests</span>
+
+            
+                <div class="description quest-description">Outrider Cunren is recruiting new members for a plan to raid the observation camp at the mountaintop in the Gorges of Spirits. However, it seems that the mission assigned to the Outrider is only reconnaissance. Why is Cunren acting on his own?</div>
+            
+
+            
+                <div class="section">Rewards</div>
+
+                <div class="costgrid">
+                    
+                        <div class="costentry">
+                            <a href="item_1.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_1.png" />
+                                </div>
+                                <div class="costtext">
+                                    500
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_3.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_3.png" />
+                                </div>
+                                <div class="costtext">
+                                    40
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_43010003.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_43010003.png" />
+                                </div>
+                                <div class="costtext">
+                                    2
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_43020003.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_43020003.png" />
+                                </div>
+                                <div class="costtext">
+                                    2
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_2.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_2.png" />
+                                </div>
+                                <div class="costtext">
+                                    18000
+                                </div>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <span class="section"><a class="offset-anchor" id="costs"></a>Dialog</span>
+
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">0</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    Is he alright?
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Logistics Specialist</span>: 
+                                                
+                                                It's just a small scratch, I'm disinfecting it for him. Bear with it!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Injured Passerby</span>: 
+                                                
+                                                Uncle... Aunt! Please do the herb picking yourselves from now on... It's too painful, Uncle!!!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    Was he attacked by the Exiles?
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Logistics Specialist</span>: 
+                                                
+                                                He is a resident of the village at the foot of the mountain. He just got scratched by a branch while picking herbs... He's just too afraid of pain.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">5</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Logistics Specialist</span>: 
+                                                
+                                                The camp is in that direction, I'm here. Stop yelling, I've already bandaged it!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">6</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Injured Passerby</span>: 
+                                                
+                                                Uncle... Aunt!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                This small camp, with just a few teammates, we can take it down today.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">0</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                But we're just here for reconnaissance...
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                It's just a group of thieves inside, what are you afraid of? They have occupied this camp, which has seriously affected Midnight Rangers' observation of the front line situation!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                The captain said we can't act on our own, and those who violate the rules will be severely punished... If he finds out about this, I can't even imagine.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">5</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Know what? He will only know that we have won a great victory and will commend us greatly.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">20</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    What are you talking about?
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">20</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    What commendation?
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                Wow! The exiles are here, don't catch me...
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">6</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                What exiles... take a closer look at <i>{#NAME}</i>'s attire, does it look like those thieves?
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                Then, what are you?
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    I was just passing by.
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:9)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    I'm here to join you.
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:8)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">9</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Just passing by? It's quite rare to come to this wilderness... but it's a good timing, I'm in need of some help.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">9</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:10)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">8</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Good observation, I'm a person who does great things! Since you said that, let me introduce myself to you.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">10</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                We are a temporary team called Outrider Squad. I'm Storing the Blade, and she's Lingdi. We came to investigate the situation of this camp today.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">11</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                But I have already figured out the situation inside. It's just a group of exiles, so I'm ready to launch the attack first!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">12</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                So, what do you think? Do you want to join us and contribute to Midnight Rangers together?
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                I don't want to be scolded by the captain, don't involve me...
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    Don't I need to ask your captain?
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:14)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    I'll think about it.
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:15)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">14</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Why ask? We can recapture this camp in advance and give him a surprise, isn't that better?
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">14</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:16)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">15</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Consider it? Indecisiveness is a big taboo on the battlefield!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">16</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Forget it, you two are so hesitant, you can't rely on it at all.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">17</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                I will lead the team to attack the camp at the planned time, you just wait for my triumphant return.
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">18</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Lingdi</span>: 
+                                                
+                                                Don't be impulsive...
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">19</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Cunren</span>: 
+                                                
+                                                Alright, alright, look at you, so cowardly. You will regret not joining me today when you see me become an official member of the Midnight Rangers!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Unsatisfied Team Member</span>: 
+                                                
+                                                Thank you... it seems that some of my brothers have been captured! I really want to continue fighting side by side with them...
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Fury Team Member</span>: 
+                                                
+                                                I, Black Cyclone, have returned! Exiles, tremble!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">Nervous Exile</span>: 
+                                                
+                                                Finally rescued! You idiots, how can you even lock up your own people!
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+            
+        </div>
+    </body>
+</html>

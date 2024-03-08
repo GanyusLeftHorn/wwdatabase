@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>营地突袭 (136000000)</title>
+
+        <link rel="stylesheet" href="/style.css?v=0.8" />
+        <script src="/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">共鸣者</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">敌</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">武器</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">背包</span>
+        </a>
+
+        <a href="quests.html" class="nav-entry">
+            <img class="nav-icon" src="/img/quest.png" />
+            <span class="nav-text">任务</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <span class="name">营地突袭</span>
+            <span class="itemtype">纪闻任务</span>
+
+            
+                <div class="description quest-description">踏白队员存刃正在招纳人手，计划突袭云陵谷山顶的观测营地。但是踏白小队接到的任务似乎只是侦察而已，他为什么要擅自行动呢？</div>
+            
+
+            
+                <div class="section">Rewards</div>
+
+                <div class="costgrid">
+                    
+                        <div class="costentry">
+                            <a href="item_1.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_1.png" />
+                                </div>
+                                <div class="costtext">
+                                    500
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_3.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_3.png" />
+                                </div>
+                                <div class="costtext">
+                                    40
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_43010003.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_43010003.png" />
+                                </div>
+                                <div class="costtext">
+                                    2
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_43020003.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_43020003.png" />
+                                </div>
+                                <div class="costtext">
+                                    2
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_2.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_2.png" />
+                                </div>
+                                <div class="costtext">
+                                    18000
+                                </div>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <span class="section"><a class="offset-anchor" id="costs"></a>Dialog</span>
+
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">0</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    他还好吗？
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">后勤队员</span>: 
+                                                
+                                                一点点擦伤而已，我正在给他消毒。你忍着点！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">受伤的路人</span>: 
+                                                
+                                                叔啊……姨啊！以后采药这种事你们就自己来吧……太痛了，叔啊！！！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    他被流放者攻击了吗？
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">后勤队员</span>: 
+                                                
+                                                他是这个山下村子的住民，采药时被树枝划伤了而已……他就是太怕疼了。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">5</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">后勤队员</span>: 
+                                                
+                                                营地就在那个方向，这里有我就行。你别叫嚷了，已经包扎完了！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">6</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">受伤的路人</span>: 
+                                                
+                                                舅啊……婶啊！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                这巴掌大个营地，我叫上两三个队员，今天就能拿下。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">0</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                可是我们只是来侦察的……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                里面不过是一群贼而已，你怕什么？他们霸占着这个营地，已经严重影响了夜归对前线情况的观测！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                队长说过，不可以擅自行事，违者重罚……这事要是让他知道了，我想都不敢想。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">5</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                知道什么？他只会知道我们大胜而归，对我们大加表彰。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">20</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    你们在说什么？
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">20</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    表彰什么？
+                                                    
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                呜哇！流放者来了，别抓我……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">6</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                什么流放者……你仔细看看<i>{#NAME}</i>这打扮哪里像那群盗贼了。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                那，那你是什么人？
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    我路过的。
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:9)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    我是来加入你们的。
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:8)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">9</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                路过？跑到这荒山野岭来还真是新鲜……但来得正好，我正缺人手。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">9</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:10)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">8</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                好眼力，是干大事的人！既然你都这么说了，我就跟你介绍介绍。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">10</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                我们是临时组成的踏白小队，我叫存刃，她叫聆笛，今天来侦察这个营地的情况。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">11</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                但里面的情况我已经摸清楚了，不过是一群流放者而已，所以我准备率先发起攻势！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">12</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                怎么样，要不要加入我们，一起为夜归做出贡献？
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                我不想被队长骂，别扯上我……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    不用问一下你的队长吗？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:14)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">13</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    我再考虑一下。
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:15)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">14</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                问什么？我们提前把这个营地收复了，给他一个惊喜不是更好？
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">14</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:16)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">15</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                考虑一下？优柔寡断是战场上的大忌！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">16</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                唉算了算了，你们俩犹犹豫豫的，根本靠不住。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">17</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                我会按计划的时间带人攻进营地，你们就等着我凯旋吧。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">18</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">聆笛</span>: 
+                                                
+                                                你不要冲动啊……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">19</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">存刃</span>: 
+                                                
+                                                行了行了，瞧你那怂样。等你看我成了夜归的正式成员，就会后悔今天没加入我！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">不甘的队员</span>: 
+                                                
+                                                谢谢你……我的兄弟们好像有的被关起来了！我也好想，跟他们继续并肩作战……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">愤怒的队员</span>: 
+                                                
+                                                我黑旋风回来了！流放者们，颤抖吧！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">不安的流放者</span>: 
+                                                
+                                                终于得救了！你们这群蠢货，怎么连自己人也关！
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,396 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>心之集域·异想奇境 (310000043)</title>
+
+        <link rel="stylesheet" href="/style.css?v=0.8" />
+        <script src="/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    </head>
+
+    <body>
+        <div class="navigation">
+    <div class="nav-container">
+        <a href="index.html" class="nav-entry">
+            <img class="nav-icon" src="/img/roles.png" />
+            <span class="nav-text">共鸣者</span>
+        </a>
+
+        <a href="monsters.html" class="nav-entry">
+            <img class="nav-icon" src="/img/monsters.png" />
+            <span class="nav-text">敌</span>
+        </a>
+
+        <a href="weapons.html" class="nav-entry">
+            <img class="nav-icon" src="/img/weapons.png" />
+            <span class="nav-text">武器</span>
+        </a>
+
+        <a href="items.html" class="nav-entry">
+            <img class="nav-icon" src="/img/bag.png" />
+            <span class="nav-text">背包</span>
+        </a>
+
+        <a href="quests.html" class="nav-entry">
+            <img class="nav-icon" src="/img/quest.png" />
+            <span class="nav-text">任务</span>
+        </a>
+
+        <div class="langselect">
+            <select id="langselector" onchange="langSelectChange()">
+                <option value="(none)">(Select language)</option>
+                <option value="en">English</option>
+                <option value="cn">中文</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+        <div class="content-container">
+            <span class="name">心之集域·异想奇境</span>
+            <span class="itemtype">道引任务</span>
+
+            
+                <div class="description quest-description">一封来源未知的神秘邮件，指引你来到了怨鸟泽。那空气中奇异的频率，似乎昭示某个往日的秘密，而真相，就掩藏在那扇只有你才能打开的门后。</div>
+            
+
+            
+                <div class="section">Rewards</div>
+
+                <div class="costgrid">
+                    
+                        <div class="costentry">
+                            <a href="item_1.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_1.png" />
+                                </div>
+                                <div class="costtext">
+                                    150
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_3.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_3.png" />
+                                </div>
+                                <div class="costtext">
+                                    20
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_43010002.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_43010002.png" />
+                                </div>
+                                <div class="costtext">
+                                    3
+                                </div>
+                            </a>
+                        </div>
+                    
+                        <div class="costentry">
+                            <a href="item_2.html">
+                                <div class="costicon-container">
+                                    <img class="costicon" src="/img/item_2.png" />
+                                </div>
+                                <div class="costtext">
+                                    12000
+                                </div>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <span class="section"><a class="offset-anchor" id="costs"></a>Dialog</span>
+
+                
+                    
+                        
+                        
+                            <table class="dialog">    
+                                
+                                    <tr>
+                                        <td class="dialog-id">1</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                你果然来了。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                我一直在这里等你。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    你是谁？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:3)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">2</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    为什么要等我？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:4)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                你可以叫我守门人。但我并不重要，重要的是这扇门。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">3</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:5)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                准确来说，是这扇门在等你。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    这扇门是……？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:5)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    这扇门里有什么？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:5)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">4</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    这扇门通往哪里？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:5)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">5</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                这扇门中的空间叫做心之集域，它贮存了索拉里斯上的所有幻想。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">6</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                它知道孩子渴望的糖果的味道，也知晓独裁者妄想中的的疯狂计划。它深知生命的潜意识中美好与卑劣的一切。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                换句话说，它记录了每个人的梦。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    它是被谁创造的？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:8)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">7</td>
+                                        <td>
+                                            
+                                                <span class="dialog-option">
+                                                    它和我有什么关系？
+                                                    
+                                                        
+                                                            <span class="dialog-action">(Jump:9)</span>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">8</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                它由从古至今，索拉里斯的每个个体的经历而创造。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">8</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-option dialog-action">(Jump:9)</span>
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">9</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                心之集域记录了索拉里斯的一切，而你的存在，是它正常运作的重要条件之一。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">10</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                在你苏醒之前，心之集域里混入了本不该有的东西。
+                                            
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="dialog-id">11</td>
+                                        <td>
+                                            
+                                                
+                                                    <span class="dialog-speaker">黑色守门人</span>: 
+                                                
+                                                如今它正在面临一场混乱，需要你来帮助它稳定状态——等等，有点不对劲……
+                                            
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <hr class="dialog-divider" />
+                        
+                    
+                
+            
+        </div>
+    </body>
+</html>
